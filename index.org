@@ -7,8 +7,8 @@
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 
-#+TITLE: AS Systems & Control Theory
-#+AUTHOR: Stephen Brown
+#+TITLE: AS Design Engineering Theory
+#+AUTHOR: C. Delport
 #+OPTIONS: toc:nil f:nil author:nil num:nil creator:nil timestamp:nil 
 
 #+BEGIN_HTML
@@ -21,7 +21,7 @@
 <img src=img/pencil.png width=70%>
 </center>
 #+END_HTML
-- /Note:/ Past papers going back to 2007 are available in the open drive in school, located in /G:\Systems and Control\Year 12 S&C\Past Papers\/
+- /Note:/ Past papers going back to 2017 are available in the open drive in school, located in /G:\Design Engineering\Year 12\Past Papers\/
 * [[file:1.html][Lesson 01 - Mathematics]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
@@ -78,7 +78,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[http://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-systems-2555/past-papers-and-mark-schemes][AQA Past Exam papers]]
+* [[http://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-systems-2555/past-papers-and-mark-schemes][OCR Past Exam papers]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
