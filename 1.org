@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Mathematics
+#+TITLE: Identifying Requirements
 #+AUTHOR: Stephen Brown
 
 #+BEGIN_HTML
@@ -103,152 +103,125 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Introduction
+* Exploring Contexts
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Ohm's Law
+1.1 What can be learnt by exploring contexts that design solutions are intended for?
+a.   Understand that all design practice is context dependent and that investigations 
+are required to identify what makes a context distinct in relation to: 
+    i.  environment and surroundings
+    ii.  user requirements
+    iii.  economic and market considerations 
+    iv.  product opportunities.
+** Environment and surroundings
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Before you can do anything to design and create new, original projects, you'll need to understand three fundamental electronic concepts. 
-- *Voltage*, is the difference in energy level between two points in a circuit, which will allow electrons to move through a conductor. The more difference in energy levels there is, the larger the amount of current can be drawn, and the larger item they can power. A basic red LED might only need 2.7V to run, whereas a laptop might need 24V, and a large electric motor moving a lift might need 415V to operate. 
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- **Current** is a measure of how many electrons pass a particular point in the circuit per second. Higher current (/measured in Amps/) means faster electron flow in the circuit. The process of moving electrons through a material generates frictional heat. If the wire used in a product is too thin, and too much current passes through it, the wire will melt! This is the principal on which fuses are made. 
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- **Resistance** is a measure of to what extent a material resists the flow of current in a circuit, and is measured in Ohms. Good conductors of electricity (like copper and gold) have very low resistance (1-2 \Omega{}), and insulators (like rubber and plastic) have a high resistance (several million Ohms). 
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- Another explanation (with interactive demonstrations) can be seen [[https://www.bournetoinvent.com/projects/7-SC-Torch/pages/1_Lesson.html][here]].
-- Another explanation of the concepts can be seen over at [[https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law][SparkFun]]. 
-- Ohm's law is the mathematical formula that shows the relationship between Voltage (V), Current (I) and Resistance (R). 
-  - *V = IR*
-#+BEGIN_HTML
-<br>
-#+END_HTML
+1.1a.i. Environment and surroundings
+Products are designed for use in different environments. 
+- A robot that welds car body panels together will be used exclusively in a factory. 
+- A photocopier might be designed for use in a School or office. 
+- A plug-in air freshener would be typically used in the home.
 
-- In the exam, you'll sometimes be asked to calculate one of the values, given two of the others.
-- E.g. /According to its datasheet, an LED can take a maximum of 2.5v, and has a safe current of up to 20mA. If powered by a 6v battery, what size resistor will be needed to protect it?/
-- LEDs have very low internal resistance, and will blow instantaneously if they try and handle all too much current.
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- If we have a 6V potential difference in the circuit, we need to remove 3.5V (6V - 2.5V) from the circuit, to leave 2.5V for the LED. *V=2.5*
-- Just like any other physics question, we need to use the correct SI unit to perform our calculation. 1000mA = 1A, so 100mA = 0.1A, 10mA = 0.01A and so 20mA = 0.02A. *I = 0.02*
-- We now have values for V and I, and we need to find R. Through basic re-arrangement, our formula becomes: *R = V / I*
-  - R = V / I
-  - R = 3.5 / 0.02
-  - R = 175\Omega
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- It turns out that 175Ω isn’t a standard resistor size we can buy, so we go to the next largest size, which is 180Ω (220Ω would also work here).
-** Electrical Power
+When engineers and designers work to create new items, the context for where it is to be used will heavily influence the form of the finished product. A product that is to be used in an industrial environment (like a labelling machine) will be designed solely to perform the task it exists to do, in a safe way. If it has a human operator, any interface (e.g. display, buttons, etc) are large, clear and is intuitive to use as far as possible. Durability will heavily influence the design, as the product may be mission-critical and could cause production to slow or halt in the event of its failure. Industrial products will likely be engineered to make replacing defective parts as convenient as possible (e.g. through the addition of removable access panels). 
+
+A product for an office must be designed to both serve its purpose, but to also give a look and feel in keeping with a professional environment. A common colour scheme is grey and silver, objects often have an ‘industrial’ look and ergonomics should be carefully considered to ensure that products are comfortable to use for extended periods. Microsoft produce an ergonomic keyboard, for example. 
+
+Products designed for a home environment will commonly be more heavily influenced by the cosmetic finish of the product. For luxury goods, the materials used to finish the product will be of a higher quality, and may include varnished wood and premium plastics (like those seen in coffee machines). As young children are often present in home settings, safety considerations must include making sure that small fingers can’t make their way into areas that cause harm (e.g. think about how plug sockets are designed). 
+
+For all products, **safety must be the prime consideration**, ensuring that there are no sharp edges, exposed wires or moving parts that could trap a body-part and cause injury.   
+
+** User Requirements
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Power is the product of Voltage and Current, and is measured in Watts. This is expressed mathematically as:
-  - P = V I
+When a client approaches an engineering team to solve a problem, they will have a list of specific requirements which will need to be satisfied. This list is developed with the engineering team and is called a Design Specification. This may cover areas such as: Aesthetics, size, weight, materials, cost, durability, functionality (i.e. what it actually does), performance (how fast/accurately it does it) and power (e.g. batteries, solar, generator and mains AC). Once the product prototype has been built, the engineering team can test the product against the specification to demonstrate that they have designed a product or system which does exactly what the client asked for. 
 
-- *Example Use:* Is a 0.25W resistor adequate for the LED example above? 
-  - The amount of power the resistor has to dissipate can be calculated as… 
-  - P = 3.5 x 0.02 = *0.07W*
-  - So a 0.25W resistor would be suitable. In fact, it would be suitable for carrying the current of up to 3 LEDs. 
-
-** Series and Parallel Resistance 
+** Economic and Market Considerations 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- *Resistors in Series*
-- To calculate the overall resistance achieved when connecting together resistors in series, we add them together. E.g.
-  - R_{T} = R_{1} + R_{2}
-- Example: Two resistors are connected together in series in a circuit. The colour codes on the first resistor is green, blue, black, gold. The colour code on the second resistor has been rubbed off. When a multi-meter is placed across both resistors, the meter reads 276Ω. What is the resistance of the unmarked resistor?
-  - 276 = 56 + R_{2}
-  - R_{2} = 276 - 56 = 220\Omega 
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- *Resistors in Parallel*
-  - 1/R_{T} = 1/R_{1} + 1/R_{2} + 1/R_{3}…
-** The Potential Divider
+- All clients have a budget. At the outset of a new project, they will advise on what their development budget (how much they want to spend on manpower + prototypes to develop a mass-producible product) is, and will indicate the budget for building the actual new product (e.g. Should cost no more than £3 to manufacture per unit). 
+- The market that the product is to be aimed at will influence this heavily; a water purification unit for refugees in a third-world country would need to be built as cheaply as possible (to maximise the number of people who can have one), while ensuring that the product works consistently and safely. Any unnecessary flourishes (e.g. branding, nice-to-have features like an LED indicator) would need to be stripped away to the bare minimum amount of hardware to produce the desired result. 
+- The market for a new top-spec iPhone would be very different, and to ensure that the client feels they’re receiving value for money, the quality of the product would need to be of the highest standard available in order to justify the price tag that such an item could be expected to command.
+
+** Product Opportunities
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A potential divider allows engineers to reduce the amount of voltage in a circuit. This is one of the most elemental circuits, and is used in various forms in PIC circuit design.
-[[./img/pot_div.png]]
-- V_{1} = (R_{1} / (R_{1} + R_{2})) x Supply voltage (V_{S})
-- V_{2} = (R_{2} / (R_{1} + R_{2})) x Supply Voltage (V_{S})
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- By placing two resistors in series, different voltages can be achieved.
-- This is handy when connecting analogue sensors to PIC chips. 
-- It's also useful to put a PD before the base of a transistor (come back to this statement later in the course when you've covered more of the theory!) to trigger different components.
-  - While only a low current is available (resistors reduce current flow), having an LDR (resistance increases as light level drops) and a fixed (usually 10k) resistor in a potential divider setup will allow varying amounts of voltage to be sent into the analogue pin of the PIC.
-  - The Genie PIC chips we have contain an 8-bit ADC (Analogue to Digital Convertor), which convert a voltage between 0-5V to a number between 0 and 255.
-[[./img/ldr.png]]
-  - When the light level is very high (/1000 [[http://en.wikipedia.org/wiki/Lux][lux]] in the shot above/), the resistance in the LDR drops to around 400\Omega. As a result, most of the electrical energy in the potential divider will flow into the analogue input, as this is easier than having to travel through a 10k resistor. 
-  - In this case, is we asuming 400\Omega of resistance through the LDR, and a 10k\Omega resistor are forming a potential divider, we can use the first of the formulae shown above...
-      1. V_{1} = (R_{1} / (R_{1} + R_{2})) x Supply voltage (V_{S})
-      2.  V_{1} = (10000 / (10000 + 400)) x 5
-      3.  V_{1} = (10000 / 10400) x 5
-      4.  V_{1} = 0.962 x 5
-      5.  V_{1} = 4.81
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- There would be a 4.81V potential difference at V_{1}. 
-  - The ADC will interpret this through a simple process...
-    - 4.81 / 5 = 0.962 (5 is the input voltage for the PIC in this demo)
-    - 0.962 * 255 = *245.31*
-    - So we report to the PIC chip that we've got an analogue reading of 245. 
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- When the light level drops, the LDR's resistance will rise up to a few million Ohms. This will mean that by the time current has passed through the LDR, much of the energy will have been dissipated (in the form of heat), leaving a much smaller potential difference between the analogue input and 0V. The ADC will interpret this voltage as a low number.
-#+BEGIN_HTML
-<br>
-#+END_HTML
-- Despite the temptation to do so, a PD  *isn't* suitable for creating power rails that need to power a load (e.g. Stepping down 12V to 3V to drive a motor), as all the current you'd need to draw will also have to pass through R_{2} first. 
-
-  - Further reading: [[https://dlnmh9ip6v2uc.cloudfront.net/r/600-600/assets/4/0/3/a/e/511948ffce395f7f47000000.png][Sparkfun]]
-
-** Transistors 
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Current Gain = Collector Current / Base Current
-* Mechanisms
+- Events happen around the World daily. These can often represent opportunities for entrepreneurs. Some are short-term (e.g. fidget spinners becoming cool) and others may be longer-term (e.g. combating global warming), necessitating new products to solve new problems. By looking for trends and following global events, designers and engineers can identify new, unsolved problems and create successful products to tackle them. 
+* Stakeholders Analysis
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Ratio of Simple Gears / Pulleys
+1.2 What can be learnt by undertaking stakeholder analysis?
+a.   Demonstrate an understanding of methods used for investigating stakeholder 
+requirements, such as:
+•  user-centred design and stakeholder analysis
+•  SWOT analysis
+•  focus groups 
+•  qualitative observations 
+•  market research to identify gaps for new products or opportunities to update existing products.
+** User Centred Stakeholder Analysis
+- When a new product is to be designed and built, in order for it to be successful, the target audience must be carefully considered. The different people/groups involved in a product are called stakeholders. In a School, stakeholders include students, teachers, support staff and governors.
+- For a piece of industrial manufacturing equipment like a robot that places toppings on frozen pizzas in a factory, stakeholders can include managers, machine operatives, maintenance engineers and system programmers. Each of these people will have particular wants in terms of what the machine might do. 
+- The manager will likely want the robot to keep track of how many pizzas it tops each day, how much product falls off the pizza onto the floor (waste), how often it breaks down (costing the company money). 
+- The maintenance engineers will want to ensure that all the main parts can be removed in as short a time as possible, that they’re easy to reach and that the reliability of the machine is such that it seldom breaks down.
+- The operative (where one is required) will want a machine which requires minimal human input to work, is comfortable to use, reduces the amount of repeated body movement to operate and is safe to use.
+- **Practice task: Make a stakeholder list for a new vacuum cleaner and suggest some stakeholder priorities that they might raise.**
+** A SWOT Analysis
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+[[./img/SWOT_analysis.png]]
+A SWOT analysis (Strengths, Weaknesses, Opportunities and Threats) is a process developed in the 60’s by which as many considerations as possible are recorded under each of the SWOT headings. For a new smartphone, one might identify:
+- Strength: The new design is ultra light-weight.
+- Weakness: The software is the same as available on every other Android phone
+- Opportunities: Has a unique new chip that can be marketed to unlock users doors at homes
+- Threats: There are many other phone manufacturers who could release this feature first.
+You can read a little more about it [[https://www.mindtools.com/pages/article/newTMC_05.htm][here]].
+** Focus Groups 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Gear Ratio = Number of teeth on driven gear / Number of teeth on driver gear
-- Velocity Ratio = Diameter of driven pulley / Diameter of driver pulley
-- Output Speed = Input speed /Gear (or velocity) ratio
-
-** Ratio of Simple Gears / Pulleys
+- Focus groups are meetings in which the engineering team meet with different stakeholders to discuss the new product. They may produce a SWOT analysis collaboratively as part of this.
+** Qualitative Observation
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Mechanical Advantage
-- Mechanical Advantage (MA) = Load / Effort
-
-** Forces
+- Qualitative observation is the process of design engineers watching a pre-existing system operating in a live environment (e.g. a factory in which frozen pizzas are manually topped). By watching the process, engineers can fully understand the steps in the existing system and consider different solutions to improve the current system. 
+** Market Research
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Moments = Force x Distance
-- Sum of clockwise moments = sum of anti-clockwise moments
-
+- Market research is the process of looking online (or through product catalogues) at other ways in which the problem can be solved using products designed by other companies. Unless it can be made more cheaply, there is little point in releasing a product which another supplier is already selling. Equally, if an existing product has reviews stating that it lacks a particular feature, the opportunity to release a rival product to compete with it might arise. 
+* Developing New Product Ideas
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+1.2 What can be learnt by undertaking stakeholder analysis?
+b.   Demonstrate an understanding of how enterprise can help drive the development of new product ideas through routes to innovation such as:
+•  entrepreneurship
+•  commercial partnerships
+•  venture capitalists and crowd funding websites.
+** Entrepreneurship
+- In order to develop, release and market a new product, substantial initial financial capital will be required. One might fund these through a number of different routes:
+- An entrepreneur who has a high level of self-belief in her product might elect to borrow their start-up capital from a bank in the form of a large loan. As the bank will be taking a considerable risk (i.e. if your product doesn’t take off, they’ll lose their money), they would typically expect that you would demonstrate your commitment by sharing the risk. This usually comes by you putting up your own money (if you have enough) or your home against the loan, so that if your business fails, your house can be sold to allow the bank to recover their money. The advantage of this approach is that if you are able to launch a new product, you’ll be able to enjoy all the profits after you’ve paid back your debt. The disadvantage of this is that should your idea not be a success, you risk losing your home and any other assets you may have.
+** Commercial Partnerships
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Some engineers might seek funding through startup-incubators (similar to the TV show, Dragons’ Den). By ‘pitching’ your idea and presenting your business plan to a panel of experienced investors, you may be able to negotiate to obtain the funding you need in exchange for a (often considerable) percentage of your profits if/when your product takes off. Incubators are often able to supply experienced business people to offer advice as well as providing office space for start-ups. 
+- Read more: https://en.wikipedia.org/wiki/Business_incubator
+- Venture Capitalists (VCs) are similar to a start-up incubator. 
+- https://en.wikipedia.org/wiki/Venture_capital
+- A 21st century approach to raising capital is through the use of crowd-funding, made popular through sites such as www.Kickstarter.com. Crowd funding works by the engineer creating a web page outlining the details of the product they intend to design and create, and allowing prospective 
+** Venture Capatalists and Crowd Funding Websites 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- investors to pay for different ‘rewards’, typically at considerably lower prices than the retail price of the product once launched to the general public. If the designer is able to reach a certain level of funding, the website transfers them the money pledged by the individual investors and they are then able to create and launch their product. If they don’t reach the intended funding level, the investors’ money is returned. This has the advantage of not requiring any up-front investment by the engineer and doesn’t expose the investor to as much risk. The disadvantage is that one may not reach their funding target, and that the inventor may not actually be able to deliver the product they’ve promised with the funding they raise if their calculations are incorrect. 
 * Practice questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -257,10 +230,12 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-1. A 9v DC motor motor rated at 0.673A is to be powered by a 12v supply. What size resistor should be used to make it run at it’s maximum speed?
-2. 	i) A 60W lightbulb in a house is running on a standard 240v AC power supply. How much current does it draw?
-	ii) UK fuses can be 1A, 3A, 5A or 13A. This refers to how much current can be drawn through the fuse without it “blowing”. What size fuse should be fitted to a 1600W hairdryer?
-3. A circuit being designed has a 12v supply, but needs a 3v rail, to be made with a potential divider. Suggest two resistor values that could provide this, and confirm it in circuit wizard.
-4. What’s the overall resistance achieved by connecting together 3 100Ω resistors in series in a circuit?
+1. Apart from the bridge crew (i.e. Captain and first officer), name two different stakeholder groups that might be identified when designing a new cruise ship. [2] 
+2. The design team are drafting specification points for different stakeholders. One point the bridge crew have identified is that it must be possible to reliably communicate with the different teams on the ship at all times. For each of the two stakeholder groups you identified above, describe one specification point they might suggest when designing the new ship. [4]
+3. Describe the term, ‘focus group’. [2]
+4. Mary has recently finished her A-levels and has designed a mobile phone charger with an integrated radio and flashlight. She wants to release it as a commercial product, but has never launched a product. Suggest a funding mechanism she could use, and justify your choice.  [3]
+5. A stationary company wants to create a pencil dispenser that can be put into school classrooms to allow students who have forgotten their pencil to take a replacement. 
+ - The company want to set up a focus group. Identify a stakeholder group that might be invited. [1]
+ - Suggest 3 user requirements that might be proposed in an initial meeting with the client, and justify your answers. [6]
 
 [[file:index.html][Return to homepage]]
