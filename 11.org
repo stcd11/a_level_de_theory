@@ -6,17 +6,17 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Industrial and Commercial Practices
-#+AUTHOR: Stephen Brown
+#+TITLE: Science in Design Engineering
+#+AUTHOR: C. Delport
 
 #+BEGIN_HTML
 <div class="github-fork-ribbon-wrapper left">
 <div class="github-fork-ribbon">
-<a href="https://github.com/stsb11/as_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/a_level_de_theory">Fork me on GitHub</a>
 </div>
 </div>
 <center>
-<img src='http://laserprouk.com/images/laser-x252-large-image.jpg' width=40%>
+<img src='http://www.bu.edu/library/files/2011/05/banner_eng62.jpg' width=40%>
 </center>
 #+END_HTML
 
@@ -103,115 +103,176 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Introduction
+* S1 - Use scientific laws – Newton’s laws of motion, Hooke’s law, Ohm’s law as appropriate to the design produce
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- There are many ways to go about fabricating an electromechanical system. It is useful to know a variety of methods for working with resistant materials. 
-** Industrial Processes
+** Use scientific laws
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Understanding of how familiar processes used in school are related to those used in the industrial context, especially with reference to batch and mass production.
-    - *[[http://en.wikipedia.org/wiki/Sand_casting][Sand casting]]:* A mould is formed from sand, and molten metal is poured into it to form the desired part. A low-cost method of forming metal parts with a reasonable degree of accuracy.
-    - *[[http://en.wikipedia.org/wiki/Die_casting][Die casting]]:* Forming metal parts by forcing molten metal into a mould. Better precision than sand casting, but unsuitable for high-volume manufacture.
-    - *[[http://en.wikipedia.org/wiki/Vacuum_forming][Vacuum Forming]]:* A method of working with thermoplastics, whereby a softened plastic sheet is stretched over a mould, and a vacuum pump is used to ensure the plastic sheet tightly follows the conours of the mould. 
-    - *PCB production:* The method is discussed in the GCSE notes, [[https://www.bournetoinvent.com/projects/gcse_theory/11.html][here]]. 
-** Wastage
+Use scientific laws appropriately to the design of products, such as:
+• Newton’s laws of motion
+• Hooke’s law
+• Ohm’s law.
+- Contact and non-contact forces influencing the motion of an object.
+- Newton’s and that this is the measure of force.
+- Force arrows and have an understanding of balanced and unbalanced forces.
+- Forces acting to deform objects and to restrict motion. 
+- Understanding of force and extension for a spring covering Hooke’s law.
+- Measurement of conventional current and potential difference in circuits.
+- Assemble series and parallel circuits and of how they differ with respect to conventional current and potential difference.
+- Current and resistance and the units in which they are measured.
+- Recall and apply Ohm’s law the relationship between I, R and V 
+** Knowledge of the function of mechanical devices
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- For the exam, you need to know several hand and machine methods of shaping commonly available resistant materials by wastage. A wastage process is one where you start with a block of material (e.g. wood), and use tools to take away the parts you don't want /(e.g. drill, saw)/ to get the the overall shape is desired. 
+Knowledge of the function of mechanical devices to produce different sorts of movement, and the movement of objects under the influence of forces in order to solve problems around stress, strain and elasticity, including projectiles.
 
-- *Hand methods*
-     1. A coping saw can be used where a curved or intricate line needs to be cut,
-     2. A panel saw can be used to cut larger pieces of timber,
-     3. A drill can be used to make circular holes.
-     4. A chisel can be used to precisely remove areas of a material.
-
-- *Machine methods*
-    1. A bandsaw will cut quickly through most woods at high speed, and can be used to cut curves – this requires training and a great deal of care.
-    2. A circular saw can be used to quickly cut through or to cut grooves in straight lines at high speed.
-
-- *CAM methods*
-     1. A CNC router can be programmed (using 3d software) to carve the desired shape from a block of wood. The wood to be cut needs to be firmly secured to the bed of the machine, to ensure the work piece isn’t dislodged by the high-speed cutting bits. 
-     2. A laser-cutter cuts shapes from sheet material using a tightly focused beam to cut through (and etch) thermoplastic materials. A design is created on a CAD package on the computer, then sent to the machine where it is cut. Extractor is turned on throughout and the user needs to avoid eye contact with the beam. 
-
-** Fabrication Methods
+- Relationship between speed, distance and time.
+- Represent information in a distance-time graph.
+- Relative motion of objects.
+- Contact and non-contact forces influencing the motion of an object.
+- Newton’s and that this is the measure of force.
+- Force arrows and have an understanding of balanced and unbalanced forces.
+- Forces acting to deform objects and to restrict motion.
+- Hooke’s law and the idea that when work is done by a force it results in an energy transfer and leads to energy being stored by an object.
+- There is a force due to gravity.
+** Knowledge of electronic systems
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Mechanical methods which work on a variety of materials are:
-    - Machine screws (bolts) can be used with washers (to spread the load and help prevent breakage). Two surfaces are drilled slowly, then bolted. If requried, nylon-lined (nyloc) nuts can be used, which won't slip loose over time. 
+Knowledge of the electronic systems through an understanding of currents (I), resistance (R) and potential difference (V); explain the design and use of circuits – including for lamps, diodes, thermistors and LDRs.
 
-    - A CNC milling machine or router can be used in a similar way to a laser cutter, but to use a physical bit to cut away at the surface of the material. Careful work with a small chisel and hammer can be used to square off any corners where needed.
+Calculate the currents, potential differences and resistances in DC series circuits; represent them with the conventions of positive and negative terminals, and the symbols that represent common circuit elements, including diodes, LDRs and thermistors.
 
-- Temporary fabrication techniques suitable for wood, metal and plastic. A minimum of three mechanical methods
-- Redistribution /Deformation
-   - Redistribution methods are where a material is melted or formed into a new shape, eliminating waste. Injection moulding, for instance.
-   - Deformation is where a material's shape is changed by being manipulated. This could be a piece of metal being beaten into shape (e.g. a horsehoe), sheet steel being rolled through the 3-in-1 machine or aluminium sheet being folded by being clamped in a vice and struck. 
-** Woods
+- Electron transfer leading to objects becoming statically charged and the forces between them.
+- Existence of an electric field.
+- Measurement of conventional current and potential difference in circuits.
+- Assemble series and parallel circuits and of how they differ with respect to conventional current and potential difference.
+- Current and resistance and the units in which they are measured.
+- Recall and apply Ohm’s law the relationship between I, R and V 
+- Magnets and the idea of attractive and repulsive forces.
+- Shape of the fields around bar magnets.
+- Magnetic effect of a current and electromagnets.
+- Energy transfer in process of electrical circuits. 
+- Conservation of energy and that it has a quantity that can be calculated.
+- Transfer of energy into useful and waste energy stores.
+- Power and how domestic appliances can be compared.
+- Insulators and how energy transfer is influenced by temperature.
+
+** Understanding appropriate energy sources
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Permanent fabrication techniques suitable for *wood* are those which allow different pieces of wood to be permentantly joined together.
-    - *Mechanical methods* like self-tapping wood screws can be used to permanently join two pieces of wood together. A countersink can be used to ensure the screws finish flush with /(or beneath)/ the surface. 
-    - *Chemical methods* like PVA glue can be used to bond two wooden surfaces together. To ensure the strongest possible bond, the joints need to be close-fitting, and free from grease and dust. The glue is applied, before the two surfaces are clamped together. The bond will be better if the surface areas of the joints are increased (e.g. through the use of finger or dovetail joints).
-
-** Metals
+- Ecosystems and the various ways organisms interact.
+- Gases of the atmosphere.
+- Composition of the Earth, the structure of the Earth, the rock cycle, the carbon cycle, the composition of the atmosphere and the impact of human activity on the climate.
+- How waves behave and how the speed of a wave may change as it passes through different media.
+- How sound is heard and the hearing ranges of different species.
+- Uses of some types of radiation.
+- Be able to approach systems in terms of energy transfers and stores.
+- That energy can be transferred in processes such as changing motion, burning fuels and in electrical circuits.
+- Idea of conservation of energy and that it has a quantity that can be calculated.
+- Transfer of energy into useful and waste energy stores.
+- Power and how domestic appliances can be compared.
+- Insulators and how energy transfer is influenced by temperature.
+- Ways to reduce heat loss in the home.
+- Renewable and non-renewable energy resources.
+- Understanding of how power stations work and the cost of electricity in the home.
+- Electrical safety features in the home. 
+** Application of scientific formula
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Permanent fabrication techniques suitable for *metal*
-    - *Thermal methods* such as soldering allows two metals to bond together, and is commonly used to connect electronic  components to PCBs and to connect copper pipes together in household plumbing installations. 
-    - Another thermal method is [[http://en.wikipedia.org/wiki/Arc_welding][arc welding]], where an electric arc is formed between an electrode the material to be welded, to bond metals together. 
-    - *Mechanical methods* such as nuts and bolts can be used to tightly attach two surfaces together, in a way which can be removed easily for when maintenance is required. 
-    - Another mechanical method for metal is the use of *taps and dies*. The tap is first sued to sink a threaded hole into one surface, and the die is then used to cut a thread onto a cylindrical rod, so that the two can be screwed together. 
+Application of scientific formulae and calculation of quantities when applying science to mathematical skills.
 
-** Plastics
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Permanent fabrication techniques suitable for *plastic* can include...
-    - *Thermal methods* like line bending. This allows plastics to be heated, and bent along a focused point. The area to be worked is heated until soft, and then bent into the desired position. It is held in place until it cools and sets into its new shape.
-    - *Vacuum forming* is another thermal method, where a mould is formed for the part which is needed. A sheet of material (e.g. HIPS, ABS or acrylic) is heated evenly until it softens. Once soft, the mould is pushed into the plastic, and a vacuum pump turned on to pull the plastic tightly onto the mould.
-- Chemical methods
-    - Plastic cement /(Tensol)/ can be used to bond two plastics. The joints need to be close-fitting, and free from grease/residue. The two surfaces are clamped together, and the solvent is applied sparingly. The glue is sucked into the joint through a capillary action. The bond will be better if the surface areas of the joins are increased (e.g. through the use of finger joints).
-* Recap
+- Scientific quantities and corresponding units. 
+- Apply them in qualitative work and calculations.
+- Apply skills in observation, modelling and problem-solving, with opportunities for these skills to be shown through links to specification content.
+- Explain the differences in density between the different states of matter in terms of the arrangements of the atoms and molecules.
+- Apply the relationship between density, mass and volume to changes where mass is conserved. (covered as maths requirement)
+- Density (kg/m3 ) = mass (kg)/volume (m3 ) (covered as maths requirement)
+- Distance travelled (m) = speed (m/s) x time (s) (covered as maths requirement)
+- Acceleration (m/s2 ) = change in velocity (m/s)/time (s) (covered as maths requirement)
+- Kinetic energy (J) = 0.5 x mass (kg) x (speed (m/s))2
+- Force (N) = mass (kg) x acceleration (m/s2)
+- Work done/energy (J) = force (N) x distance (m) (along the line of action of the force)
+- Power (W) = work done (J)/time (s)
+- Momentum (kgm/s) = mass (kg) x velocity (m/s)
+- Force exerted by a spring (N) = extension (m) x spring constant (N/m)
+- Gravity force (N) = mass (kg) x gravitational field strength, g (N/kg) 
+- (In a gravity field) potential energy (J) = mass (kg) x height (m) x gravitational field strength, g (N/kg) (g = 9.81 N/kg)
+- Charge flow (C) = current (A) x time (s)
+- Potential difference (V) = current (A) x resistance (Ω)
+- Energy transferred (J) = charge (C) x potential difference (V)
+- Power (W) = potential difference (V) x current (A) = (current (A))2 x resistance (Ω)
+- Energy transferred (J, kWh) = power (W, kW) x time (s, h)
+- Wave speed (m/s) = frequency (Hz) x wavelength (m)
+- Efficiency = useful output energy transfer (J)/input energy transfer (J)
+- Change in thermal energy (J) = mass (kg) x specific heat capacity (J/kg°C) x change in temperature (°C)
+
+
+* S2 - Describing the conditions which cause degredation
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Past Paper Questions
+** Understanding the properties of materials
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: learn
 :END:
-- *Specimen Paper, Q3.* The plastic casing for an electronics project could be manufactured by either: -
-   - one-off production,  
-   - batch production, or  
-   - mass production.  
+- Understanding of physical properties of elements and compounds considering the nature of their bonding affecting their properties.
+- Many useful materials that we use today are mixtures. 
+- Demonstrate an understanding of electrolysis, ionic solutions and solids.
+- Describe a process where a material or product is recycled for a different use, and explain why this is viable.
+- Evaluate factors that affect decisions on recycling.
+- Describe the basic principles in carrying out a lifecycle assessment of a material or product.
+- Matter and the similarities and differences between solids, liquids and gases.
+* S3 - Knowledge of the physical properties of materials and an explanation of how these are related to their uses
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Properties of materials when designing
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+Knowledge of properties of materials to be applied when designing and making.
 
-- For each of these processes, state a suitable production process which could be used to manufacture the casing and give one advantage of this type of manufacturing process. 
+- Explain applications of chemistry that can be used to help humans improve their own lives and strive to create a sustainable world for future generations.
+- Properties of ceramics, polymers and composites.
+- The method of using carbon to obtain metals from metal oxides.
+** Scientific constitution of materials
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+Knowledge of the properties of materials based on their scientific constitution.
 
-- One-off production
-   - Production Process: /(1 mark)/
-   - Advantage: /(1 mark) /
-
-- Batch production
-   - Production Process: /(1 mark)/
-   - Advantage: /(1 mark)/
- 
-- Mass production
-   - Production Process: /(1 mark)/
-   - Advantage: /(1 mark)/
-
-
-- *2009, Q7(b).* Identify two health and safety risks when producing and soldering components onto printed circuit boards and state how these risks may be reduced. /(4 marks)/
+- Explain that many useful materials are formulations of mixtures.
+- Explain the differences in density between the different states of matter in terms of the arrangements of the atoms and molecules.
+- Explain how modern life is crucially dependent upon hydrocarbons and recognise that crude oil is a finite resource.
+- Apply the relationship between density, mass and volume to changes where mass is conserved. 
 
 
-- *2011, Q3.* With the aid of an annotated sketch, describe a method of using heat to permanently join two pieces of metal together. /(4 marks)/
+
+** Choosing appropriate materials including, polymers, composites, wood and metals
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+Understand the appropriate use of materials, including polymers, composites, woods and metals, based on their physical properties.
+
+- explain how the bulk properties of materials (ionic compounds; simple molecules; giant covalent structures; polymers and metals) are related to the different types of bonds they contain, their bond strengths in relation to intermolecular forces and the ways in which their bonds are arranged.
+** Choosing appropriate materials including, technical textiles and fibres
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+Understand the appropriate use of materials, including technical textiles, fibres, polymers and metals, based on their physical properties
+
+- describe and compare the nature and arrangement of chemical bonds in: 
+- i. ionic compounds
+- ii. simple molecules 
+- iii. giant covalent structures
+- iv. polymers 
+- v. metals.
 
 
-- *2012, Q6(b).* Using annotated sketches, describe in detail a suitable manufacturing process for the main body of a plastic bucket. /(10 marks)/
-
-
-[[file:index.html][Return to homepage]]

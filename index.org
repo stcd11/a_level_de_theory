@@ -26,54 +26,46 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:6.html][Lesson 02 - Mechanical Systems]]
+* [[file:6.html][Lesson 02 - Learning from existing products and practice]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./7.html][Lesson 03 - Resistant Materials]]
+* [[./7.html][Lesson 03 - Implications of wider issues]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./4.html][Lesson 04 - Logic]]
+* [[./4.html][Lesson 04 - Design thinking and communication]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:5.html][Lesson 05 - Advanced Electronics]]
+* [[file:5.html][Lesson 05 - Materials and component considerations]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:2.html][Lesson 06 - Input Transducers]]
+* [[file:2.html][Lesson 06 - Technical understanding]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:3.html][Lesson 07 - Electrical Materials]]
+* [[file:3.html][Lesson 07 - Manufacturing processes and techniques]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./8.html][Lesson 08 - Development of Design]]
+* [[./8.html][Lesson 08 - Viability of design solutions]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./9.html][Lesson 09 - Programming and Communication]]
+* [[./9.html][Lesson 09 - Health and Safety]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./10.html][Lesson 10 - Design in the Human Context]]
+* [[./10.html][Lesson 10 - Mathematics]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./11.html][Lesson 11 - Industrial Processes]]
+* [[./11.html][Lesson 11 - Science]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
-:END:
-* [[./12.html][Lesson 12 - Mathematics]]
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: link-heading
-:END:
-* [[./13.html][Lesson 13 - Science]]
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: link-heading
-:END:
+:END:      
 * [[./theory.doc][Exam Theory topic list]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
