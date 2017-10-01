@@ -155,14 +155,19 @@ When a client approaches an engineering team to solve a problem, they will have 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-1.2 What can be learnt by undertaking stakeholder analysis?
-a.   Demonstrate an understanding of methods used for investigating stakeholder 
+#+BEGIN_VERSE
+What can be learnt by undertaking stakeholder analysis?
+
+1.2a Demonstrate an understanding of methods used for investigating stakeholder 
 requirements, such as:
+
 •  user-centred design and stakeholder analysis
 •  SWOT analysis
 •  focus groups 
 •  qualitative observations 
 •  market research to identify gaps for new products or opportunities to update existing products.
+#+END_VERSE
+
 ** User Centred Stakeholder Analysis
 - When a new product is to be designed and built, in order for it to be successful, the target audience must be carefully considered. The different people/groups involved in a product are called stakeholders. In a School, stakeholders include students, teachers, support staff and governors.
 - For a piece of industrial manufacturing equipment like a robot that places toppings on frozen pizzas in a factory, stakeholders can include managers, machine operatives, maintenance engineers and system programmers. Each of these people will have particular wants in terms of what the machine might do. 
@@ -196,15 +201,19 @@ You can read a little more about it [[https://www.mindtools.com/pages/article/ne
 :HTML_CONTAINER_CLASS: learn
 :END:
 - Market research is the process of looking online (or through product catalogues) at other ways in which the problem can be solved using products designed by other companies. Unless it can be made more cheaply, there is little point in releasing a product which another supplier is already selling. Equally, if an existing product has reviews stating that it lacks a particular feature, the opportunity to release a rival product to compete with it might arise. 
+
 * Developing New Product Ideas
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-1.2 What can be learnt by undertaking stakeholder analysis?
-b.   Demonstrate an understanding of how enterprise can help drive the development of new product ideas through routes to innovation such as:
+
+#+BEGIN_VERSE
+1.2b.   Demonstrate an understanding of how enterprise can help drive the development of new product ideas through routes to innovation such as:
 •  entrepreneurship
 •  commercial partnerships
 •  venture capitalists and crowd funding websites.
+#+END_VERSE
+
 ** Entrepreneurship
 - In order to develop, release and market a new product, substantial initial financial capital will be required. One might fund these through a number of different routes:
 - An entrepreneur who has a high level of self-belief in her product might elect to borrow their start-up capital from a bank in the form of a large loan. As the bank will be taking a considerable risk (i.e. if your product doesn’t take off, they’ll lose their money), they would typically expect that you would demonstrate your commitment by sharing the risk. This usually comes by you putting up your own money (if you have enough) or your home against the loan, so that if your business fails, your house can be sold to allow the bank to recover their money. The advantage of this approach is that if you are able to launch a new product, you’ll be able to enjoy all the profits after you’ve paid back your debt. The disadvantage of this is that should your idea not be a success, you risk losing your home and any other assets you may have.
@@ -222,6 +231,59 @@ b.   Demonstrate an understanding of how enterprise can help drive the developme
 :HTML_CONTAINER_CLASS: learn
 :END:
 - investors to pay for different ‘rewards’, typically at considerably lower prices than the retail price of the product once launched to the general public. If the designer is able to reach a certain level of funding, the website transfers them the money pledged by the individual investors and they are then able to create and launch their product. If they don’t reach the intended funding level, the investors’ money is returned. This has the advantage of not requiring any up-front investment by the engineer and doesn’t expose the investor to as much risk. The disadvantage is that one may not reach their funding target, and that the inventor may not actually be able to deliver the product they’ve promised with the funding they raise if their calculations are incorrect. 
+* Designing Prototypes
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+#+BEGIN_VERSE
+How can usability be considered when designing prototypes?
+1.3a Learners should be able to analyse and evaluate factors that may need consideration in relation to the user interaction of a design solution, including:
+i. the impact of a solution on a user’s lifestyle
+ii. the ease of use and inclusivity of products
+iii. ergonomic considerations and anthropometric data to support ease of use
+iv. aesthetic considerations.
+
+Usability is the extent to which something is fit for purpose. By producing a new version of a kitchen knife which has a more comfortable grip, users would be able to use it to prepare food for longer before their hands tire. This can be considered from a number of stand-points.
+#+END_VERSE
+
+** 1.3ai Users lifestyles
+An obvious objective of a product designed for a homeowner should be to provide a positive impact. This may be:
+- To reduce the time spent on a domestic task to increase leisure time. The invention of washing machines freed up time that would be spent hand-washing.
+- To provide a financial saving. An LED lightbulb will save money spent on electricity.
+- To reduce the effort required to achieve a desired outcome. Remote controls for applicances like TVs remove the need to walk over to the set in order to change channel.
+- To enable a disabled user to function more independently. Speaking clocks allow blind or partially sighted users to tell the time.
+- To improve the environment of the home. Scented candles look attractive, and when lit release a pleasing fragrance. 
+- To improve security. High-spec burglar alarms call homeowners when they are triggered, notifying them of a problem.
+** 1.3aii Ease of use and inclusivity
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+#+BEGIN_VERSE
+Ease of use refers to how straightforward a product is for a user to learn to operate. Industry professionals often cite that aside from its cosmetic appearance, the Apple iPhone has been a runaway success largely because of how intuitive it is to use. Some systems (e.g. specialised industrial equipment) may be more complex by necessity, but the use of labels on control buttons, information engraved into panels and good-quality documentation, the ease of use can be increased.
+
+Inclusivity is about designing a product in such a way that people of all shapes, sizes and those with disabilities are able to use the product. Using the iPhone again as an example, Apple have invested extensively in providing a user interface that speaks to users as they run their fingers around the screen. As a result, blind users can make calls, send messages and take advantage of many features through these adaptations. In many new homes, light-switches are installed lower down, allowing a wheelchair user to reach them. High-rise buildings have lifts installed, so that people with reduced mobility can access the upper floors. 
+#+END_VERSE
+** 1.3aiiiErgonomics and Anthropmetrics 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+BEGIN_VERSE
+Ergonomics is the study of people’s efficiency in their working environment. Many products are marketed as being ‘ergonomically designed’. An ergonomic computer mouse will more naturally fit around a human hand; an ergonomic chair will have support for the lower back, and lots of options to adjust the height/tilt of different parts to make it more comfortable to sit in for extended periods. 
+
+To design a product with ergonomics in mind, anthropometric data is used. This comes in the form of tables that can show figures on ‘typical’ human characteristics, like the height of US men over 20 year old. Data can also be obtained on grip strength in people’s hands, the mean average length of different body parts, range of movement of a head, etc. This can be useful for all manner of things, such as establishing how tightly a Coke bottle’s screw-top lid can be done up to minimize the loss of CO2 while ensuring that most children can open them without assistance. 
+#+END_VERSE
+** 1.3aiv Aesthetic Considerations 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+BEGIN_VERSE
+This was touched on previously, but for a domestic or office product, if the item is physically attractive and stylistically in-keeping with current trends, a premium price can be charged. A good example of this is an electric kettle; these consist of a heating element, a temperature sensor and a switch. While incremental improvements have appeared such as better heating elements, the circuit inside is largely unchanged since the original 1891 design. Nonetheless, consumers have the ability to spend £6 on a kettle, or over £200. Both achieve the same outcome and share the same fundamental parts, but they look cosmetically different. It is worth remembering that while the profit margin is considerably greater for a ‘designer’ kettle, far fewer are sold. It is entirely possible that the manufacturer selling vastly greater number of their product for a lower profit would actually operate a more profitable overall business – this principal can be seen when comparing supermarkets like Aldi and Waitrose. 
+
+b. Demonstrate an understanding of the ergonomic factors that may need considering when developing engineered products, including:
+i. anthropometric data to help de ne design parameters associated with the human body
+ii. user comfort, layout of controls, so ware user-interface.
+#+END_VERSE
 * Practice questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
