@@ -6,17 +6,17 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Logic Gates
-#+AUTHOR: Stephen Brown
+#+TITLE: 4 - Design Thinking and Communication
+#+AUTHOR: C. Delport
 
 #+BEGIN_HTML
 <div class="github-fork-ribbon-wrapper left">
 <div class="github-fork-ribbon">
-<a href="https://github.com/stsb11/as_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/a_level_de_theory">Fork me on GitHub</a>
 </div>
 </div>
 <center>
-<img src='./img/and.png' width=50%>
+<img src='img/First_angle_projection.png' width=20%>
 </center>
 #+END_HTML
 
@@ -103,196 +103,88 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Introduction
+* Uses of 2D and 3D sketching and digital tools
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- Whether programming a PIC chip or designing a circuit to use components, a good understanding of the basic logic gates will make your work easier. Electronic circuits, computers, games consoles and mobile ‘phones all use logic gates for their decision making processes. 
-- Logic gates typically operate using wither one or two inputs, which are either off (usually referred to as being “logic low” or 0), or on (referred to as being “high” or 1). 
-- In electronics, 5v usually indicates a logical high, and 0V for a logic low state. 
 
+#+BEGIN_VERSE
+Engineering drawing and artistic types of drawing, and either may be called simply "drawing" when the context is implicit. Engineering drawing shares some traits with artistic drawing in that both create pictures. But whereas the purpose of artistic drawing is to convey emotion or artistic sensitivity in some way (subjective impressions), the purpose of engineering drawing is to convey information (objective facts).
 
-- The *AND* gate only gives a logic high when both its inputs are high. i.e. Input 1 AND input 2 both need to be high. 
-#+BEGIN_HTML
-<center>
-<object data="js/AND.html" width='200px' height='100px'></object>
-</center>
-#+END_HTML
-- Some questions ask you to draw a truth table. This is a table which shows all the possible permutations of the inputs. A and B are used to denote inputs, and Q is the output value. In the first row here, we can see that when both the inputs are turned off (are low), the output is also low. The truth table for the AND gate is:
+4.1a Demonstrate an understanding of  how to use annotated sketching and digital tools to graphically communicate ideas and sketch modelling to explore possible improvements, in terms of physical requirements, such as:
 
-| <c> | <c> | <c> |
-| A   | B   | Q   |
-|-----+-----+-----|
-| 0   | 0   | 0   |
-| 0   | 1   | 0   |
-| 1   | 0   | 0   |
-| 1   | 1   | 1   |
+*i.* function, usability, construction, movement, stability, composition, strength
 
-- The *OR* gate gives a logic high when either (or both) of its inputs are high. i.e. Input 1 OR input 2 OR both are high. 
-#+BEGIN_HTML
-<center>
-<object data="js/OR.html" width='200px' height='100px'></object>
-</center>
-#+END_HTML
-| <c> | <c> | <c> |
-| A   | B   | Q   |
-|-----+-----+-----|
-| 0   | 0   | 0   |
-| 0   | 1   | 1   |
-| 1   | 0   | 1   |
-| 1   | 1   | 1   |
+*ii.* aesthetic qualities
 
-- The *NOT* gate is unique in having only one input. Sometimes called the invertor gate, it inverts whatever input is sent into it. 
-#+BEGIN_HTML
-<center>
-<object data="js/NOT.html" width='200px' height='100px'></object>
-</center>
-#+END_HTML
-| <c> | <c> |
-|   A |   Q |
-|-----+-----|
-|   0 |   1 |
-|   1 |   0 |
+*iii* manufacturing processes
 
-- The *NAND* gate is an AND gate, but with a NOT gate connected to its output. This is the building block of all modern computers, as all other gates can be built from combining NANDs together, and a single NAND gate can be made from two NPN transistors. 
-#+BEGIN_HTML
-<center>
-<object data="js/NAND.html" width='200px' height='100px'></object>
-</center>
-#+END_HTML
-| <c> | <c> | <c> |
-| A   | B   | Q   |
-|-----+-----+-----|
-| 0   | 0   | 1   |
-| 0   | 1   | 1   |
-| 1   | 0   | 1   |
-| 1   | 1   | 0   |
+*iv* suitability of materials and components.	
 
-- The *NOR* gate is an OR gate, but with a NOT gate connected to its output. It only gives a logic high when both inputs are turned off. 
-#+BEGIN_HTML
-<center>
-<object data="js/NOR.html" width='200px' height='100px'></object>
-</center>
-#+END_HTML
-| <c> | <c> | <c> |
-| A   | B   | Q   |
-|-----+-----+-----|
-| 0   | 0   | 1   |
-| 0   | 1   | 0   |
-| 1   | 0   | 0   |
-| 1   | 1   | 0   |
+4.1b Demonstrate an understanding of methods used to represent systems and components to inform third parties, such as:
 
-- The *XOR* (Exclusive OR) gate is an OR gate, but with one important difference. The output only goes high if one input, or the other (but not both) is on. A normal OR gate, by comparison, will also go high if both inputs are turned on.
-#+BEGIN_HTML
-<center>
-<object data="js/XOR.html" width='200px' height='100px'></object>
-</center>
-#+END_HTML
-| <c> | <c> | <c> |
-| A   | B   | Q   |
-|-----+-----+-----|
-| 0   | 0   | 0   |
-| 0   | 1   | 1   |
-| 1   | 0   | 1   |
-| 1   | 1   | 0   |
-* Recap
+*i.* constructional diagrams/working drawings
+
+*ii.* digital visualisations
+
+*iii* circuit and system diagrams
+
+*iv* flowcharts with associated symbols
+
+*v* prototypes and models.
+
+#+END_VERSE
+
+* Industry professionals use digital design tools to support and communicate the exploration, innovation and development of design ideas?
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Example Question
+
+#+BEGIN_VERSE
+There are three different scales of production: one-off, batch and mass/continuous flow. Products will be engineered differently depending on how the product is to be made. 
+
+4.2a Awareness of different strategies, techniques and approaches to explore, create and evaluate design ideas, including:
+
+*i.* Visual presentation, rendering and photo-quality imaging.
+
+ 
+
+*ii.* Product simulation and systems simulation.
+
+
+*iii.* Scientific analysis of real-world physical factors to determine whether a product will break or work the way it was intended.
+
+
+
+#+END_VERSE
+
+* Design engineers use different approaches to design thinking to support the development of design ideas?
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: activity
 :END:
-- *June 2012, Q4.* Complete the logic network so that it will function as shown in the truth table below. (6 marks)
 
-| <c> | <c> | <c> | <c> |
-|-----+-----+-----+-----|
-| A   | B   | C   | Q   |
-| 0   | 0   | 0   | 0   |
-| 0   | 0   | 1   | 0   |
-| 0   | 1   | 0   | 1   |
-| 0   | 1   | 1   | 0   |
-| 1   | 0   | 0   | 1   |
-| 1   | 0   | 1   | 0   |
-| 1   | 1   | 0   | 1   |
-| 1   | 1   | 1   | 0   |
+#+BEGIN_VERSE
+4.3a. Awareness of different strategies, techniques and approaches to explore, create and evaluate design ideas, including:
 
-[[./img/2012_q4.png]]
+*i.* Iterative designing.
 
-- The first thing to I do is look at how many logic gates the solution will probably involve. Given that in this question, the three inputs turn into a single output, I’d guess that two of the inputs will be connected together through a gate (based on how the A, B and C are drawn on the question paper, it’ll either be A and B, or B and C connected together). This stage will leave me with two outputs, which will need feeding into a final gate to give one output. Something a bit like this…
+*ii.* User-centred design.
 
-[[./img/2012_q4i.png]]
+*iii.* Circular economy.
 
-- (…or it might be the same idea, but with the arrow from B going into C instead)
-
-| <c> | <c> | <c> | <c> |
-|-----+-----+-----+-----|
-| A   | B   | C   | Q   |
-| 0   | 0   | 0   | 0   |
-| 0   | 0   | 1   | 0   |
-| *0* | *1* | *0* | *1* |
-| 0   | 1   | 1   | 0   |
-| *1* | *0* | *0* | *1* |
-| 1   | 0   | 1   | 0   |
-| *1* | *1* | *0* | *1* |
-| 1   | 1   | 1   | 0   |
-
-- We now need to think about what causes a logical high to be obtained. When I look at the grid (left), it seems that the only time Q gets to be high is when output C is low. That can’t be a coincidence. Given that we’ve got a scenario where a low is causing a high, this gets me thinking that gate 2 is probably a NOT gate (to turn lows into highs). I’m also thinking that gate 3 is probably an AND gate, as I need both the output from C to be high AND the result of whatever gate is between A-B to be high in order to get an overall high at the end. I suggest you re-read that slowly, one step at a time until you’re happy with it! 
-
-- If I’m right in my guess, then gate 1 must be an OR gate, as its outputs result in Q going high when either A or B are high (or both of them at the same time). Let’s check this is the answer by drawing out the logic network in full, and completing the truth table…
-
-[[./img/2012_q4ii.png]]
-
-| <c> | <c> | <c> | <c> | <c>   |
-| A   | B   | C   | Q   | Check |
-|-----+-----+-----+-----+-------|
-| 0   | 0   | 0   | 0   | 0     |
-| 0   | 0   | 1   | 0   | 0     |
-| 0   | 1   | 0   | 1   | 1     |
-| 0   | 1   | 1   | 0   | 0     |
-| 1   | 0   | 0   | 1   | 1     |
-| 1   | 0   | 1   | 0   | 0     |
-| 1   | 1   | 0   | 1   | 1     |
-| 1   | 1   | 1   | 0   | 0     |
-| 1   | 1   | 1   | 1   | 0     |
-
-- As the Q and check columns add up, we know we have the correct answer.
+*iv* Systems thinking.
 
 
-- You try: Complete the truth table for the logic circuit below. /(5 marks)/
+4.3b. The importance of collaboration to gain specialist knowledge from across subject areas when delivering solutions in the design and manufacturing industries.
 
-[[./img/sample.png]]
+4.3c. Understand how design engineers use system design processe sto define and develop systems that satisfy specified requirements of users using the three sub-tasks of:
 
-| <c> | <c> | <c> | <c> |
-| A   | B   | C   | Q   |
-|-----+-----+-----+-----|
-| 0   | 0   | 0   |     |
-| 0   | 0   | 1   |     |
-| 0   | 1   |     |     |
-| 0   | 1   |     |     |
-| 1   |     |     |     |
-| 1   |     |     |     |
-| 1   |     |     |     |
-| 1   |     |     |     |
+*i* User-interface design.
 
-** Past Paper Questions
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- *Specimen Paper, Q5.* A hot drinks vending machine has a water tank containing a water level sensor that gives a HIGH output if there is water in the tank. The machine has two buttons, one for coffee and one for tea, both giving a HIGH output when pressed. The machine’s control system should send a HIGH output to a valve if there is water in the tank and one of the two buttons are pressed, but not if both buttons are pressed at the same time.
+*ii* Data design.
 
-    - (a) Draw a truth table for the above system. 	/(4 marks)/
-    - (b) Design a logic diagram for this control system.  /(8 marks)/
-    - (c) During the development of this control system the designer could test the operation of the circuit by either prototyping using real components or by simulating the operation of the system using a computer software package. Compare and contrast these two methods of testing logic systems. /(2x 4 marks)/
+*iii* Process design.
 
-- *June 2011, Q4(a).* Complete the truth table for the circuit shown below. /(5 marks)/
+#+END_VERSE
 
-[[./img/2011_q4.png]]
-| <c>   | <c> | <c> | <c> |
-|-------+-----+-----+-----|
-| A     | B   | C   | Q   |
-| 0     | 0   | 0   |     |
-| 0     | 0   | 1   |     |
-| /etc/ |     |     |     |
 
-[[file:index.html][Return to homepage]]
