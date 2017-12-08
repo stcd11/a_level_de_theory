@@ -1,4 +1,4 @@
-#+STARTUP:indent
+#+STARTUP:indentho
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+BEGIN_COMMENT
@@ -6,8 +6,8 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Mathematics
-#+AUTHOR: C. Delport
+#+TITLE: Social and Environmental Issues
+#+AUTHOR: Stephen Brown
 
 #+BEGIN_HTML
 <div class="github-fork-ribbon-wrapper left">
@@ -16,7 +16,7 @@
 </div>
 </div>
 <center>
-<img src='./img/maths_logo.jpg' width=40%>
+<img src='./img/recycle.svg' width=20%>
 </center>
 #+END_HTML
 
@@ -89,171 +89,115 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: intro
 :END:
-** What are PIC chips?
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: research
-:END:
-Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
-In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
-PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
-Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
-
-While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
-** When would I use a PIC chip?
-Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
-In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
-In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Use of Mathematics in Design Engineering
+* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** M1 - Confident use of numbers and percentages
+- An engineer needs to understand that resources are not infinite, and that the implications of manufacturing decisions (whether in terms of materials, or manufacturing processes) will have a lasting impact on both the planet and those inhabiting it. 
+- Additional information on Social, Moral, Environmental and Sustainability issues can be found [[https://www.bournetoinvent.com/mp3/step_2.html][here]].
+** Social - Impact of Manufacturing
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Calculation of quantities of materials, components, costs and size with consideration of percentage profits and tolerances as appropriate.
-- Substitute numerical values into and rearrange learnt formulae and expressions.
-- Confident use of decimal and standard form.
-- Calculate positive integer powers and exact roots. 
-- e.g. [[./img/301b.png]]
-- Interpret and order numbers expressed in standard form. Convert numbers to and from standard form
-- e.g. [[./img/302b.png]]
-- Round answers to an appropriate level of accuracy. 
-- Use inequality notation to write down an error interval for a number or measurement rounded or truncated to a given degree of accuracy. 
-- Calculate the upper and lower bounds of a calculation using numbers rounded to a known degree of accuracy. 
-- e.g. [[./img/401c.png]]
-- Formulate simple formulae and expressions from real-world contexts. 
-- e.g. [[./img/602a.png]]
-- Substitute positive numbers into simple expressions and formulae to find the value of the subject and into more complex formulae, including powers, roots and algebraic fractions.
-- e.g. [[./img/602b.png]]
-- Rearrange formulae to change the subject, including cases where the subject appears twice, or where a power or reciprocal of the subject appears. 
-- e.g. [[./img/602c.png]]
-- Understand and use the symbols <, ≤, > and ≥. Solve linear inequalities in one variable.
-- e.g. [[./img/604a.png]]
-- Use and convert standard units of measurement for length, area, volume/capacity, mass, time and money  and in algebraic contexts.
-- Use and convert standard units of measurement for length, area, volume/capacity, mass, time and money and in algebraic contexts. Use and convert simple compound units (e.g. for speed, rates of pay, unit pricing) and (e.g. density, pressure). Know and apply in simple cases: speed = distance ÷ time and density = mass ÷ volume. Use and convert compound units in algebraic contexts.
-- e.g. [[./img/1001a.png]]
-- Substitute positive numbers into simple expressions and formulae to find the value of the subject or negative numbers into more complex formulae, including powers, roots and algebraic fractions.
-- Use and convert simple compound units (e.g. for speed, rates of pay, unit pricing) and (e.g. density, pressure). Know and apply in simple cases: speed = distance ÷ time and density = mass ÷ volume. Use and convert compound units in algebraic contexts.  
-[[./img/youngs_modulus.png]]
-- Pressure = force / area
-- Wave frequency = 1 / period
-- Turning effects, torque = Fd , or moment = Fx
-** M2 - Use of ratios
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Understand and use ratios in the scaling of drawings and pattern grading.
-- Understand and apply fractions and percentages when analysing data, survey responses and user questionnaires given in tables and charts.
-- Calculate percentages e.g. with profit, waste saving calculations or comparing measurements.
-- Recognise and use equivalence between simple fractions and mixed numbers. 
-- e.g. [[./img/201a.png]]
-- Calculate a fraction of a quantity. 
-- e.g. [[./img/201c.png]]
-- Convert between fractions, decimals and percentages. 
-- e.g. [[./img/203a.png]]
-- Calculate a percentage of a quantity, and express one quantity as a percentage of another. 
-- Express percentage change as a decimal or fractional multiplier. Apply this to percentage change problems (including original value problems). 
-- e.g. [[./img/203c.png]]
-- Find the ratio of quantities in the form a : b and simplify. Find the ratio of quantities in the form 1 : n. 
-- e.g. [[./img/501a.png]]
-- Split a quantity into two parts given the ratio of the parts. Express the division of a quantity into two parts as a ratio. Calculate one quantity from another, given the ratio of the two quantities.
-- e.g. [[./img/501b.png]]
-- Interpret a ratio of two parts as a fraction of a whole. 
-- e.g. [[./img/501c.png]]
-- Solve simple ratio and proportion problems. e.g. Adapt a recipe for 6 for 4 people.
-- Compare lengths, areas and volumes using ratio notation and scale factors. Understand the relationship between lengths, areas and volumes of similar shapes.
-- e.g. [[./img/904c.png]]
-** M3 - Calculation of surface areas and/or volumes
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Determining quantities of materials by surface area.
-- Calculate the overall surface area of different shapes, such as, cuboids, cylinders and spheres to determine quantities of material and feasibility analysis.
-- Calculate the volume of different shapes, such as, cuboids, cylinders and spheres to determine suitability of objects and products.
-- Recognise and know the properties of the cube, cuboid, prism, cylinder, pyramid, cone and sphere.
-- Calculate the surface area and volume of cuboids and other right prisms (including cylinders).
-- Calculate the surface area and volume of spheres, cones and simple composite solids **(formulae will be given)**.
-- Calculate the surface area and volume of a pyramid (the formula area of base × height will be given). 
- 
-** M4 - Use of trigonometry
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Calculate the sides and angles of objects to determine structural integrity, marking out and direction of movement.
-- Determining projectile motion and direction of movement. 
-- Determining how to resolve force vectors using F(x) = F cosi and F(y) = F sinθ.
-- Know the basic properties of the square, rectangle, parallelogram, trapezium, kite and rhombus. Use these facts to find lengths and angles in rectilinear figures and in simple proofs. Use these facts in more formal proofs of geometrical results. 
-- Know, derive and apply Pythagoras’ theorem to find lengths in right-angled triangles in 2D figures. Apply Pythagoras’ theorem in more complex figures, including 3D figures. 
-- e.g. [[./img/1005a.png]]
-- Know and apply the trigonometric ratios, sinθ, cosθ and tanθ and apply them to find angles and lengths in right-angled triangles in 2D figures. Apply the trigonometry of right-angled triangles in more complex figures, including 3D figures.
-- Know the exact values of sinθ and cosθ for θ = 0°, 30°, 45°, 60° and 90°. Know the exact value of tanθ for θ = 0°, 30°, 45° and 60°. 
-- Know and apply the sine rule to find lengths and angles. 
-- Know and apply the cosine rule to find lengths and angles. 
-- e.g. [[./img/1005d.png]]
-** M5 - Constuction, use and/or analysis of graphs and charts
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Representation of data used to inform design decisions and evaluation of outcomes.
-- Presentation of market data, user preferences, outcomes of market research as part of product design, fashion and textiles.
-- Interpret and extract appropriate data. 
-- Work with x- and y- coordinates in all four quadrants.
-- e.g. [[./img/701a.png]]
-- Construct and interpret graphs in real-world contexts. Recognise and interpret graphs that illustrate direct and inverse proportion.
-- Interpret and construct charts appropriate to the data type, including frequency tables, bar charts, pie charts and pictograms for categorical data, vertical line charts for ungrouped discrete numerical data. Interpret multiple and composite bar charts. Design tables to classify data. Interpret and construct line graphs for time series data, and identify trends (e.g. seasonal variations).
-- Interpret and construct diagrams for grouped data as appropriate, i.e. cumulative frequency graphs and histograms (with either equal or unequal class intervals).
-- Calculate the mean, mode, median and range for ungrouped data. 
-- Find the modal class, and calculate estimates of the range, mean and median for grouped data, and understand why they are estimates. 
-- Describe a population using statistics. 
-- Make simple comparisons. 
-- Compare data sets using ‘like for like’ summary values. 
-- Understand the advantages and disadvantages of summary values. 
-- Calculate estimates of mean, median, mode, range, quartiles and interquartile range from graphical representation of grouped data. 
-- Draw and interpret box plots. 
-- Use the median and interquartile range to compare distributions.
-- Plot and interpret scatter diagrams for bivariate data. 
-- Recognise correlation. 
-- Interpret correlation within the context of the variables and appreciate the distinction between correlation and causation. 
-- Draw a line of best fit by eye, and use it to make predictions. 
-- Interpolate and extrapolate from data, and be aware of the limitations of these techniques.
-- Identify an outlier in simple cases. 
-- Appreciate there may be errors in data from values (outliers) that do not ‘fit’. 
-- Recognise outliers on a scatter graph.
-- Calculate or estimate gradients of graphs, and interpret in contexts such as distance-time graphs, velocity-time graphs and financial graphs. 
-- Apply the concepts of average and instantaneous rate of change (gradients of chords or tangents) in numerical, algebraic and graphical contexts.
-- Calculate or estimate areas under graphs, and interpret in contexts such as distance-time graphs, velocity-time graphs and financial graphs.
-- *Present and interpret velocity/time graphs, stress-strain and resistance-temperature graphs.*
-- *Representation of frequency, period, amplitude and phase.* 
-** M6 - Use of coordinates and geometry
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Use of datum points and geometry when setting out design drawings, when setting out patterns and within engineering drawings.
-- Present accurate 2D and 3D graphics to communicate design solutions.
-- Use x- and y-coordinates in plane geometry problems, including transformations of simple shapes.
-- Interpret plans and elevations of simple 3D solids. 
-- Construct plans and elevations of simple 3D solids and representations (e.g. using isometric paper) of solids from plans and elevations.
-- Understand addition, subtraction and scalar multiplication of vectors. 
-- Use vectors in geometric arguments and proofs. 
-- Construct and interpret scale drawings.  
-** M7 - Use of statistics and probability as a measure of likelihood
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Interpret statistical analyses to determine user needs and preferences.
-- Use data related to human scale and proportion to determine product scale and dimensions and sizes and dimensions of fashion products.
-- Understanding of dimensional variations in mass produced components.
-- Defects in batches and reliability linked to probabilities.
-- Use the 0–1 probability scale as a measure of likelihood of random events, for example, ‘impossible’ with 0, ‘evens’ with 0.5, ‘certain’ with 1. 
-- Record, describe and analyse the relative frequency of outcomes of repeated experiments using tables and frequency trees. 
-- Use relative frequency as an estimate of probability. 
-- Understand that relative frequencies approach the theoretical probability as the number of trials increases.
-- Use the addition law for mutually exclusive events. 
-- Use p(A) + p(not A) = 1. 
-- Derive or informally understand and apply the formula.
-- p(A or B) = p(A) + p(B) - p(A and B)
-- Use tree diagrams and other representations to calculate the probability of independent and dependent combined events. 
-- Understand the concept of conditional probability, and calculate it from first principles in known contexts. Derive or informally understand and apply the formula p(A and B) = p(A given B)p(B). 
-- Know that events A and B are independent if and only if p(A given B) = p(A).
+- In the early 21st century, the majority of mass-produced products were traditionally assembled by hand, on production lines. Low-skilled workers were employed to perform one process or assemble one part of a product on a conveyor system, before the part was sent to the next operative to perform the next step in the construction process. This provided mass employment, and jobs for life for a large portion of the population. Some advantages of a human workforce are:
 
+  - *Adaptable:* Quickly re-trainable when product requirements change,
+  - *Initiative:* Able to spot errors and alert relevant people quickly,
+  - Can usually respond well to unexpected situations (e.g. equipment malfunction, fire, etc),
+  - *Cost:* Low-cost to employ and provide basic training,
+  - *Societal benefits:* Provides local people with paid employment,
+
+- The disadvantages are: -
+  - *Fallability:* Humans can fall ill, will require breaks, can quit suddenly and can’t work 24 hours a day.
+  - *Accuracy:* Each product will be slightly different on every product the person assembles, as humans will work inconsistently. 
+  - *Speed:* Not as quick to work as an automated equivalent
+  - *Eye for detail:* Can make mistakes if distracted.
+
+
+- In the latter half of the 20th century, robotic production lines became increasingly common (/as seen in car manufacturing/). Some of the advantages of a robotic workforce are: -
+
+  - *Quality:* They are more accurate and consistent than a human,
+  - *Productivity:* They don’t take breaks, go sick or have holiday, can work 24 hours a day,
+  - *Safety:* Humans are moved away from dangerous processes, resulting in less injuries,
+  - *Save money:* Robots do not take a wage, need a pension and create less waste.
+- Some disadvantages are:
+  - *Expense:* They have to be purchased initially and require maintenance form highly qualified (and expensive) staff,
+  - *Return on Investment:* This can be long and the market may change, rendering machines redundant.
+  - *Expertise:* The workforce needs to ‘skill up’ to operate and maintain them, resulting in fewer overall jobs,
+  - *Safety:* They can injure personnel if not operated correctly.
+
+** Moral Issues
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Moral issues need to considered by designers. Without proper safeguards in place, poorly designed products can potentially injure, or even kill.
+- For instance, a robotic arm in a car factory might be designed to move a car chassis from one area to the next. An arm such as this would need to be extremely powerful to carry that amount of weight, and if a human were to get in the way of it moving, this /could/ lead to serious injury.
+- The designers of the arm will need to demonstrate that they take every reasonable measure to make the arm as safe as possible. This could include:
+  - Training staff that they are not to go inside a marked area of the arm's operation.
+  - Ensuring the power is isolated when the arm is serviced.
+  - Fit sensors to detect any human coming into the operating area of the arm that will cut power if someone gets to close, and sound a siren.
+  - Fit microswitches to the sides of the arm, so that if it comes into contact with something unexpected, power is cut immediately.
+
+
+- In the event of an accident (e.g. someone getting hit by the arm), although it may look as though it is the user’s fault, it could be argued that the design of the arm was partly to blame. 
+- As well as being sued for damages there is the added issue of bad publicity for the robotics company even if they are found innocent of any wrong doing. It is usually better for any company to prevent the tragedy occurring than win the legal battle following it.
+- The manufacturer would receive bad publicity, resulting in a knock-on drop in sales for their business. 
+** Environmental and Sustainability Issues
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Plastics are made using oil, which is a non-sustainable material, and not all of these can be easily recycled. If sent to landfill, plastics take hundreds of years to break down, which is harmful to the environment. 
+
+- By creating products which use recyclable or bio-degradable materials such as PLA – a bio-degradable plastic made from corn-starch, wood or metal, the impact on the environment can be reduced. Reducing the amount of packaging can also assist.
+
+- Sustainability can be designed into products. Using a laptop as an example, by making it simple for the owner to replace parts (e.g. Hard Disk) that may wear out before the whole unit is scrap. Products can be created to have access panels and removable covers that can be safely opened / removed, to allow the user to replace parts safely (e.g. battery), and the manufacturer can provide clear instructions on how to replace these parts.
+
+- Spare parts could be designed to be easily identifiable, and made readily available to buy online, and they manufacturer could make certain parts fit many models (e.g. Memory) to make it simpler to stock and identify.
+
+- Finally, if the manufacturer reduced the regularity with which they change the design of their product (e.g. making a thinner design or new colour), the users would not feel the need to scrap their existing laptop before the end of its working life, just to trade up to a newer version.
+
+** Energy
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- In order to manufacture any product, energy is required, whether when sourcing materials, manufacturing, or distributing goods to consumers. This is typically electricity, which has to be generated before being sent to homes and factories. Electricity supplies are split into renewable and non-renewable sources.
+
+- *Burning Coal/Gas:* The traditional way of generating power, these are made from fossil fuels, and are in increasingly short supply. Burning these releases a large amount of CO2, which in turn adds to atmospheric pollution. At the same time, these are still relatively low-cost solutions.
+
+- *Nuclear power:* By using uranium, nuclear fission reactions can generate large amounts of power for many years from relatively little material. There are concerns about safety, following a number of International issues, which makes the public somewhat apprehensive about using them, and the waste material needs to be disposed of very carefully. This is also a non-renewable source. 
+
+- *Wind-power:* By using turbines, clean energy can be created for “free” (after the initial energy required to create the turbine is offset). Unfortunately, wind is variable, and therefore unreliable as a sole source of energy. 
+
+- *Solar power:* More effective in equatorial climates, photo-voltaic cells can be put on roofs in order to generate free electricity from the sun. Unfortunately, PV cells require considerable energy and resources to manufacture, and the sun does not shine all day long. 
+
+- *Geo-thermal:* By digging a deep hole in the ground and using a heat-exchange pump, the heat from the core of the planet can be used to heat homes and businesses.
+
+* Recap
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Practice Questions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Discuss the impact of introducing robotic assembly at a drill manufacturing company on the staff who work there.
+
+- Why do some companies move their manufacturing operations abroad? 
+
+- A company wants to make a new, environmentally friendly range of kitchen equipment. Suggest two materials they could use to manufacture their products from.
+
+- Name two environmentally friendly power sources. 
+
+- Name two non-renewable energy sources.
+
+** Past Paper Questions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- *June 2013, Q4.* You are advised to spend about 20 minutes on this question. This question is about social, cultural, moral and environmental issues. 
+  - (a) A company is considering purchasing robots to manufacture their products. Explain an advantage and a disadvantage of using robots in manufacturing. /(4 marks)/
+  - (b) A UK company is considering moving the manufacturing of its products to China. Explain the benefits for the company of manufacturing their products in China. /(4 marks)/
+  - (c) A multinational company is using a production process that is legal to use in some countries but is considered too dangerous to be used legally in the UK. Discuss whether or not the company should use this production process in those countries where it is legal to do so. Give reasons for your answer. /(4 marks)/
+  - (d) Explain how manufacturers can design sustainability into a product. Give examples in your answer. You will be tested for quality of written communication in this part of the question. /(8 marks)/
+
+[[file:index.html][Return to homepage]]

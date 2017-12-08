@@ -111,9 +111,9 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 #+BEGIN_VERSE
 Engineering drawing and artistic types of drawing, and either may be called simply "drawing" when the context is implicit. Engineering drawing shares some traits with artistic drawing in that both create pictures. But whereas the purpose of artistic drawing is to convey emotion or artistic sensitivity in some way (subjective impressions), the purpose of engineering drawing is to convey information (objective facts).
 
-4.1a Demonstrate an understanding of  how to use annotated sketching and digital tools to graphically communicate ideas and sketch modelling to explore possible improvements, in terms of physical requirements, such as:
+4.1a Demonstrate an understanding of how to use annotated sketching and digital tools to graphically communicate ideas and sketch modelling to explore possible improvements, in terms of physical requirements, such as:
 
-*i.* function, usability, construction, movement, stability, composition, strength
+*i.* function, usability, construction, movement, stability, composition, strength. 
 
 *ii.* aesthetic qualities
 
