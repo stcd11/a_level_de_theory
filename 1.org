@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Identifying Requirements
+#+TITLE: 1 - Identifying Requirements
 #+AUTHOR: Stephen Brown
 
 #+BEGIN_HTML
@@ -16,7 +16,7 @@
 </div>
 </div>
 <center>
-<imgzz src='' width=33%>
+<img src='img/customer_needs.jpg' width=33%>
 </center>
 #+END_HTML
 
