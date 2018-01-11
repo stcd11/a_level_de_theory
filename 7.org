@@ -112,10 +112,64 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 #+BEGIN_VERSE
 6.4a Demonstrate an understanding of how electronic systems provide input, control and output process functions, including:
 
-i. switches and sensors, to produce signals in response to a variety of inputs
-ii. programmable control devices
-iii. signal amplification
-iv. devices to produce a variety of outputs including light, sound, motion.
+i. *Switches and sensors, to produce signals in response to a variety of inputs.*
+
+  Click on this [[http://www.bbc.co.uk/schools/gcsebitesize/design/systemscontrol/electronicsrev5.shtml][link]] to read more about switches and sensors.
+
+  An electrical switch is any device used to interrupt the flow of electrons in a circuit. Switches are essentially binary devices: they are either completely on (“closed”) or completely off (“open”). 
+  [[./img/types_of_switches.png]]
+
+  A sensor is a device, module, or subsystem whose purpose is to detect events or changes in its environment and send the information to other electronics, frequently a computer processor.
+  [[./img/Types-of-Sensors.jpg]]
+  
+ii. *Programmable control devices.*
+
+    [[./img/PIC_picture.jpg]]
+    A microprocessor is a multi-function programmable device. Microprocessors enable computers to work, and they can also be used to control many types of electronic system.
+
+    An alternative type of programmable component is the microcontroller or PIC. Microcontrollers are essentially single-purpose microprocessors, and they enable designers to use the same device to control a wide range of situations, while being cheaper than a computer control system. The rate at which the PIC works is controlled by an internal clock.
+
+    For example, the various systems in a car could be controlled either by a single microprocessor controlling a number of different functions at once, or by a series of microcontrollers, each controlling specific functions such as fuel consumption.
+
+    The advantage of the microprocessor is that one device can control everything. The disadvantage comes if the microprocessor malfunctions: all the systems could be affected and the replacement cost is high. With microcontrollers, on the other hand, if one is damaged it can be easily replaced and when one fails the others continue to function.
+
+    An alternative to the PIC is a Programmable Logic Controller (PLC). A programmable logic controller (PLC), or programmable controller is an industrial digital computer which has been ruggedized and adapted for the control of manufacturing processes, such as assembly lines, or robotic devices, or any activity that requires high reliability control and ease of programming and process fault diagnosis.
+    [[./img/PLC_ladder_logic.jpg]]
+    [[./img/PLC_process.png]]
+iii. *Signal amplification.*
+
+    An amplifier, electronic amplifier or (informally) amp is an electronic device that can increase the power of a signal (a time-varying voltage or current). An amplifier uses electric power from a power supply to increase the amplitude of a signal. The amount of amplification provided by an amplifier is measured by its gain: the ratio of output voltage, current, or power to input. An amplifier is a circuit that has a power gain greater than one.    
+    
+    There are many different circuits available to amplify signals, below are a few common examples.
+   
+    The Common Emitter Amplifier
+#+END_VERSE
+#+BEGIN_HTML
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/l-rfPfRgNJ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+#+BEGIN_VERSE
+
+    The Push-Pull amplifier
+#+END_VERSE
+#+BEGIN_HTML
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e_SE4KQjYR8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+#+BEGIN_VERSE
+
+    Operational amplifiers (Op-Amps)
+#+END_VERSE
+#+BEGIN_HTML
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EZIufczc7fE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+#+BEGIN_VERSE
+   Click on [[http://www.bbc.co.uk/schools/gcsebitesize/design/systemscontrol/electronicsrev8.shtml][link]] to read more about op-amps
+
+iv. *Devices to produce a variety of outputs including light, sound, motion.*
+
+   An output device is any device used to send data from a microcontroller to another device. Most microcontroller data output that is meant for humans is in the form of audio, visual or movement. Thus, most output devices used by humans are in these categories. Examples include LEDs, speakers, buzzers, DC motors and stepper motors.
+   [[./img/output_bulb_buzzer.jpg]]
+   [[./img/output_solenoid_relay.png]]
+   [[./img/output_motor_stepper.png]]
 
 6.4b Demonstrate an understanding of the function of an overall system, referring to aspects, including:
 
