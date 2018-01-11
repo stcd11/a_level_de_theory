@@ -173,16 +173,65 @@ iv. *Devices to produce a variety of outputs including light, sound, motion.*
 
 6.4b Demonstrate an understanding of the function of an overall system, referring to aspects, including:
 
-i. passive components: resistors, capacitors, diodes 
-ii. inputs: sensors for position, light, temperature, sound, infra-red, force, 
-rotation and angle
-iii. process control: programmable microcontroller
-iv. signal amplification: MOSFET, driver ICs
-v. outputs: LED, sounder, solenoid, DC motor, servo motor
-vi. analogue and digital signals and conversion between them
-vii. open and closed loop systems including feedback in a system and how it 
-affects the overall performance
-viii. sub-systems and systems thinking.
+i. *Passive components: resistors, capacitors, diodes.* 
+
+   Passive Components are electronic components that do not require a Source of Energy to perform their intended functions. The followings are the examples of Passive Components: Resistors. They resist the flow of electric current. The resistance is measured in Ohms (Ω).
+   
+   A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses.
+   [[./img/resistors.jpeg]]
+   A capacitor is a passive two-terminal electrical component that stores potential energy in an electric field. ... Most capacitors contain at least two electrical conductors often in the form of metallic plates or surfaces separated by a dielectric medium.
+   [[./img/capacitors.jpeg]]
+   A diode is a specialized electronic component with two electrodes called the anode and the cathode. Most diodes are made with semiconductor materials such as silicon, germanium, or selenium. ... The fundamental property of a diode is its tendency to conduct electric current in only one direction.
+   [[./img/diodes.jpg]]
+
+   [[./img/passive_vs_active.jpg]]
+ii. *Inputs: sensors for position, light, temperature, sound, infra-red, force, 
+     rotation and angle.*
+  
+   A position sensor is any device that permits position measurement. It can either be an absolute position sensor or a relative one (displacement sensor). Position sensors can be linear, angular, or multi-axis. Some position sensors available today: Capacitive transducer.
+   [[./img/position_sensor.gif]]
+
+   A Light Sensor is something that a robot can use to detect the current ambient light level - i.e. how bright/dark it is. There are a range of different types of light sensors, including 'Photoresistors', 'Photodiodes', 'Phototransistors' and 'Light dependant Resistors'.
+   [[./img/light_sensor.jpg]]
+
+   Temperature sensors such as a thermal resistor is a type of resistor whose resistance is dependent on temperature, more so than in standard resistors. ... With NTC thermistors, resistance decreases as temperature rises. An NTC is commonly used as a temperature sensor, or in series with a circuit as an inrush current limiter.
+   [[./img/thermal.gif]]
+
+   There are several types of sound sensors (microphones) like dynamic microphone, condenser microphone, ribbon microphone, carbon microphone etc. Our microphone is dynamic and uses induction coil positioned in the magnetic field of a permanent magnet attached to the diaphragm. When you make a sound, the diaphragm vibrates and thus the attached coil moves in the magnetic field, producing current.
+   [[./img/microphone.jpg]]
+
+   An infrared sensro is a detector that reacts to infrared (IR) radiation. The two main types of sensors are thermal and photonic (photodetectors).
+   [[./img/infrared.png]]
+
+   In Newtonian mechanics, the force rotation or centrifugal force is an inertial force (also called a "fictitious" or "pseudo" force) directed away from the axis of rotation that appears to act on all objects when viewed in a rotating frame of reference.
+   [[./img/centrifugal.jpg]]
+
+   When more than one force acts on an object, they do not always act in the same or opposite directions. A pair of forces may act at right angles to each other.
+   Click on [[http://www.bbc.co.uk/bitesize/intermediate2/physics/mechanics_and_heat/forces/revision/8/][link]] to read more about force angles and practise some calculation.
+ 
+iii. *Process control: programmable microcontroller.*
+
+    A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system. A typical microcontroller includes a processor, memory and input/output (I/O) peripherals on a single chip.
+    
+    A microcontroller's processor will vary by application. Options range from the simple 4-bit, 8-bit or 16-bit processors to more complex 32-bit or 64-bit processors. In terms of memory, microcontrollers can use random access memory (RAM), flash memory, EPROM or EEPROM. Generally, microcontrollers are designed to be readily usable without additional computing components because they are designed with sufficient onboard memory as well as offering pins for general I/O operations, so they can directly interface with sensors and other components.
+#+END_VERSE
+#+BEGIN_HTML
+      <iframe width="220" height="182" src="https://www.youtube.com/embed/jKT4H0bstH8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>     
+#+END_HTML
+#+BEGIN_VERSE
+iv. *Signal amplification: MOSFET, driver ICs.*
+
+    MOSFET (metal-oxide semiconductor field-effect transistor, pronounced MAWS-feht ) is a special type of field-effect transistor ( FET ) that works by electronically varying the width of a channel along which charge carriers ( electron s or hole s) flow. The wider the channel, the better the device conducts. The charge carriers enter the channel at the source , and exit via the drain . The width of the channel is controlled by the voltage on an electrode called the gate , which is located physically between the source and the drain and is insulated from the channel by an extremely thin layer of metal oxide.
+    Click on this [[MOSFET%20(metal-oxide%20semiconductor%20field-effect%20transistor,%20pronounced%20MAWS-feht%20)%20is%20a%20special%20type%20of%20field-effect%20transistor%20(%20FET%20)%20that%20works%20by%20electronically%20varying%20the%20width%20of%20a%20channel%20along%20which%20charge%20carriers%20(%20electron%20s%20or%20hole%20s)%20flow.%20The%20wider%20the%20channel,%20the%20better%20the%20device%20conducts.%20The%20charge%20carriers%20enter%20the%20channel%20at%20the%20source%20,%20and%20exit%20via%20the%20drain%20.%20The%20width%20of%20the%20channel%20is%20controlled%20by%20the%20voltage%20on%20an%20electrode%20called%20the%20gate%20,%20which%20is%20located%20physically%20between%20the%20source%20and%20the%20drain%20and%20is%20insulated%20from%20the%20channel%20by%20an%20extremely%20thin%20layer%20of%20metal%20oxide.][link]] to learn more about mosfets and how they work as amplifiers.
+    [[./img/MOSFET_amp.gif]]
+
+    A motor driver IC is an integrated circuit chip which is usually used to control motors in autonomous robots. Motor driver ICs act as an interface between microprocessors in robots and the motors in the robot. The most commonly used motor driver IC's are from the L293 series such as L293D, L293NE, etc.
+    [[./img/motor_driver.jpg]]
+v. *Outputs: LED, sounder, solenoid, DC motor, servo motor.*
+vi. *Analogue and digital signals and conversion between them.*
+vii. *Open and closed loop systems including feedback in a system and how it 
+     affects the overall performance.*
+viii. *Sub-systems and systems thinking.*
 
 6.4c Demonstrate an understanding of what can be gained from interfacing electronic circuits with mechanical and pneumatic systems and components, such as:
 
