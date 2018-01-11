@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: 8 - Viability of Design Solutions
+#+TITLE: 7 - Manufacturing Processes and Techniques
 #+AUTHOR: C. Delport
 
 #+BEGIN_HTML
@@ -16,7 +16,7 @@
 </div>
 </div>
 <center>
-<img src='img/designsolutions.jpg' width=30%>
+<img src='img/smt_board.jpg' width=30%>
 </center>
 #+END_HTML
 
@@ -103,39 +103,71 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Assess whether a design solution meets its stakeholder's requirementss
+* Materials and processes used to make iterative models
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
 #+BEGIN_VERSE
-8.1a Critically evaluating how a design solution has met its intended requirements, including:
+7.1a Understand that 3D iterative models can be made from a range of materials and components to create block models and working prototypes to communicate and test ideas, moving parts and structural integrity
 
-*i.* functionality.
-
-*ii.* ease of use and inclusivity of the solution.
- 
-*iii.* user needs.
-
-8.1b Demonstrate an understanding of the needs and methods for testing design solutions with stakeholders throughout the design development, and when testing the success of a product or system.
-
-8.1c Demonstrate an understanding of the importance of testing the feasibility of getting a product to market including considerations of cost, packaging and appeal.
+7.1b Demonstrate an understanding of simple processes that can be used to model ideas using hand tools and digital tools such as rapid prototyping, or digital simulation packages.
 
 #+END_VERSE
 
-* Assess whether the design solution meets the criteria of the technical specification
+* Materials and processes used to make final prototypes 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
 #+BEGIN_VERSE
-8.2a Demonstrate an understanding of the methods and importance of undertaken physical testing on a product to ensure it meets the criteria it is meant to fulfil, including:
+7.2a Understand how to select and safely use of common workshop tools, equipment and machinery to manipulate materials by methods of:
 
-*i.* functionality.
+*i.* wasting/subtraction processes such as cutting, drilling, turning, milling.
 
-*ii.* accuracy.
+*ii.* addition processes such as soldering, brazing, welding, adhesives, fasteners.
+
+*iii.* deforming and reforming processes such as bending, vacuum forming.
+
+7.2b Demonstrate an understanding of the role of computer-aided manufacture (CAM) and computer-aided engineering (CAE) to fabricate parts, such as:
+
+*i* additive manufacturing (3D printing) to fabricate a usable part.
+
+*ii* subtractive CNC manufacturing such as laser/plasma cutting, milling, turning and routing.
+
+7.2c Demonstrate an understanding of measuring instruments and techniques used to ensure that products are manufactured accurately or within tolerances as appropriate.
+
+7.2d Understand how the available forms, costs and working properties of materials contribute to the decisions about suitability of materials when developing and manufacturing their own products.
+
+#+END_VERSE
+
+* Materials and processes used to make commercial products
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+#+BEGIN_VERSE
+7.3a Demonstrate an understanding of the industrial processes and machinery used for manufacturing component parts in various materials, including:
+
+*i.* polymer moulding methods, such as injection moulding, blow moulding, compression moulding and thermoforming.
+
+*ii.* metal casting methods such as sand casting and die casting.
  
-*iii.* performance.
+*iii.* sheet metal forming methods using equipment such as punches, rollers, shears and stamping machines.
+
+7.3b Demonstrate an understanding of the industrial methods used for assembling electronic products, such as:
+
+*i.* surface mount technology (SMT): PCB assembly using solder stencils, pick-and-place machines and reflow soldering ovens.
+
+7.3c The methods used for manufacturing at different scales of production, including:
+
+*i.* one-off, bespoke production.
+
+*ii.* batch production.
+
+*iii.* mass production.
+
+*iv.* lean manufacturing and just-in-time (JIT) methods.
 
 #+END_VERSE
 

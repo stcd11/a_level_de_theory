@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Technical Understanding
+#+TITLE: Technical Understanding 1
 #+AUTHOR: C. Delport
 
 #+BEGIN_HTML
@@ -113,10 +113,15 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 
 6.1b Show an understanding of the processes that can be used to ensure the structural integrity of a product, such as: 
 
-i  Triangulation 
-ii Reinforcing.
-
+i  *Triangulation* 
+   A triangle is one of the strongest shapes available for engineers to use. It is used to create a shape that is rigid and will not move. We find these shapes regularly used in the building industry to keep building upright and rigid.
+   [[http://www.technologystudent.com/struct1/triag1.htm][Click on this link for more information on triangulation.]]
+ii *Reinforcing*
+   Reinforcing is used to strengthen materials and improve either their compressive or tensile strength.
 #+END_VERSE
+#+BEGIN_HTML
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/SwZ53txG1zs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML 
 * How mechanisms provide functionality to products and systems
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -126,17 +131,54 @@ ii Reinforcing.
 6.2a Demonstrate an understanding of the functions that mechanical devices offer to products, providing different types of motion, including:
  
 i. rotary
+   [[./img/rotary.gif]]
 ii. linear
+   [[./img/linear.gif]]
 iii. reciprocating
+   [[./img/reciprocating.gif]]
 iv. oscillating.
+   [[./img/oscillating.gif]]
 
 6.2b Demonstrate an understanding of devices and systems that are used to change the magnitude and direction of forces and torques, including:
 
-i. gears, cams, pulleys and belts, levers, linkages, screw threads worm drives, 
-chain drives and belt drives
-ii. epicyclic gear systems
-iii. bearings and lubrication
-iv. efficiency in mechanical systems.
+i. *Gears, cams, pulleys and belts, levers, linkages, screw threads, worm drives, 
+   chain drives and belt drives.*
+
+   Click on this [[http://www.bbc.co.uk/schools/gcsebitesize/design/systemscontrol/mechanismsrev1.shtml][link]] to see images and explanations of gears, cams, pulleys, levers, chain drives and belt drives.
+
+   Screw threads and worm drives are often used to control linear motion in CNC machines, such as 3D printers. 
+   [[./img/worm_gear.gif]]   
+ii. *Epicyclic gear systems.*
+
+   An epicyclic gear train consists of two gears mounted so that the center of one gear revolves around the center of the other. A carrier connects the centers of the two gears and rotates to carry one gear, called the planet gear, around the other, called the sun gear. The planet and sun gears mesh so that their pitch circles roll without slip. A point on the pitch circle of the planet gear traces an epicycloid curve. In this simplified case, the sun gear is fixed and the planetary gear(s) roll around the sun gear.
+   [[./img/epicyclic.gif]]
+iii. *Bearings and lubrication.*
+
+    A bearing is a machine element that constrains relative motion to only the desired motion, and reduces friction between moving parts. The design of the bearing may, for example, provide for free linear movement of the moving part or for free rotation around a fixed axis; or, it may prevent a motion by controlling the vectors of normal forces that bear on the moving parts. Most bearings facilitate the desired motion by minimizing friction. Bearings are classified broadly according to the type of operation, the motions allowed, or to the directions of the loads (forces) applied to the parts.
+    [[./img/ball_bearing.jpg]]
+
+    A lubricant is a substance, usually organic, introduced to reduce friction between surfaces in mutual contact, which ultimately reduces the heat generated when the surfaces move. It may also have the function of transmitting forces, transporting foreign particles, or heating or cooling the surfaces. The property of reducing friction is known as lubricity.
+
+    Types of lubricants:
+    [[https://en.wikipedia.org/wiki/Lubricant#Mineral_oil][Mineral Oil]]
+    [[https://en.wikipedia.org/wiki/Lubricant#Synthetic_oils][Synthetic oils]]
+    [[https://en.wikipedia.org/wiki/Lubricant#Solid_lubricants][Solid Lubricants]]
+    [[https://en.wikipedia.org/wiki/Lubricant#Aqueous_lubrication][Aqueous Lubricants]]
+    [[https://en.wikipedia.org/wiki/Lubricant#Biolubricants][Bio Lubricants]]
+    
+iv. *Efficiency in mechanical systems.*
+
+   Mechanical efficiency measures the effectiveness of a machine in transforming the energy and power that is input to the device into an output force and movement. Efficiency is measured as a ratio of the measured performance to the performance of an ideal machine:
+
+   Efficiency = Measured performance/Ideal performance
+
+   or
+
+   Efficiency = (Mechanical Advantage X 100)/Velocity Ratio
+
+   Because the power transmission system or mechanism does not generate power, its ideal performance occurs when the output power equals the input power, that is, when there are no losses. Real devices dissipate power through friction, part deformation and wear.
+
+   The ideal transmission or mechanism has an efficiency of 100%, because there is no power loss. Real devices will have efficiency less than 100% because rigid and friction-less systems do not exist. The power losses in a transmission or mechanism are eventually dissipated as heat.
 
 #+END_VERSE
 
@@ -148,80 +190,41 @@ iv. efficiency in mechanical systems.
 #+BEGIN_VERSE
 6.3a Demonstrate an understanding of static and dynamic forces in structures and how to achieve rigidity, including:
 
-i. tension, compression, torsion and bending
-ii. stress, strain and elasticity
-iii. mass and weight
-iv. rigidity
-v. modes of failure. 
+i. *Tension, compression, torsion and bending.*
 
-#+END_VERSE
+   [[./img/tension.jpg]]
 
-* How electronic systems offer functionality to design solutions
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
+   Tension may describe the pulling force transmitted axially by means of a string, cable, chain, or similar one-dimensional continuous object, or by each end of a rod, truss member, or similar three-dimensional object; tension might also be described as the action-reaction pair of forces acting at each end of said elements. Tension could be the opposite of compression.
 
-#+BEGIN_VERSE
-6.4a Demonstrate an understanding of how electronic systems provide input, control and output process functions, including:
+   Compression is the application of balanced inward ("pushing") forces to different points on a material or structure, that is, forces with no net sum or torque directed so as to reduce its size in one or more directions.
 
-i. switches and sensors, to produce signals in response to a variety of inputs
-ii. programmable control devices
-iii. signal amplification
-iv. devices to produce a variety of outputs including light, sound, motion.
+   Torsion is the twisting of an object due to an applied torque. Torsion is expressed in newton per squared meter (Pa) or pound per squared inch (psi) while torque is expressed in newton metres (N·m) or foot-pound force (ft·lbf). 
 
-6.4b Demonstrate an understanding of the function of an overall system, referring to aspects, including:
+   Bending (also known as flexure) characterizes the behavior of a slender structural element subjected to an external load applied perpendicularly to a longitudinal axis of the element.
+   
 
-i. passive components: resistors, capacitors, diodes 
-ii. inputs: sensors for position, light, temperature, sound, infra-red, force, 
-rotation and angle
-iii. process control: programmable microcontroller
-iv. signal amplification: MOSFET, driver ICs
-v. outputs: LED, sounder, solenoid, DC motor, servo motor
-vi. analogue and digital signals and conversion between them
-vii. open and closed loop systems including feedback in a system and how it 
-affects the overall performance
-viii. sub-systems and systems thinking.
+ii. *Stress, strain and elasticity.*
 
-6.4c Demonstrate an understanding of what can be gained from interfacing electronic circuits with mechanical and pneumatic systems and components, such as:
+    Stress is a physical quantity that expresses the internal forces that neighboring particles of a continuous material exert on each other.
+    [[./img/types_of_stress.png]]
 
-i  the ability to add electronic control as an input to mechanical or pneunamitc 
-output
-ii the use of flow restrictors to control cylinder speed
-iii  the use of sensors to measure rotational speed, strain/force, distance.
+    Strain is the measure of the deformation of the material. For example, when a solid vertical bar is supporting a weight, each particle in the bar pushes on the particles immediately below it. When a liquid is in a closed container under pressure, each particle gets pushed against by all the surrounding particles.
 
-6.4d Demonstrate an understanding of networking and of communication protocols, such as:
+    Elasticity is the ability of a body to resist a distorting influence or deforming force and to return to its original size and shape when that influence or force is removed.
 
-i wireless devices, such as: RFID, NFC, Wi-Fi, bluetooth
-ii embedded devices
-iii smart objects
-iv  networking electronic products to exchange information.
+iii. *Mass and weight.*
 
-6.4e Demonstrate an understanding of the basic principles of electricity, including:
+     Mass is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied.[1] It also determines the strength of its mutual gravitational attraction to other bodies. The basic SI unit of mass is the kilogram (kg).
 
-i. voltage
-ii. current
-iii. ohms law
-iv. power
+     Weight of an object is usually taken to be the force on the object due to gravity.[1][2] Weight is a vector whose magnitude (a scalar quantity), often denoted by an italic letter W, is the product of the mass m of the object and the magnitude of the local gravitational acceleration g;[3] thus: W = mg. The unit of measurement for weight is that of force, which in the International System of Units (SI) is the newton.
 
-#+END_VERSE
+iv. *Rigidity.*
 
-* How programmable devices and smart technologies provide functionality in system design
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
+    Rigidity is the property of a solid body to resist deformation. Structural rigidity, a mathematical theory of the stiffness of ensembles of rigid objects connected by hinges. 
 
-#+BEGIN_VERSE
-6.5a Demonstrate an understanding of how smart materials change the functionality of engineered products, such as:
+v. *Modes of failure.* 
 
-i  colour changes, shape-shifting, motion control, self-cleaning and self-healing. 
-
-6.5b Demonstrate an understanding of how programmable devices are used to add functionality to products, relating to coding of and specific applications of programmable components, such as:
-
-i. how they incorporate enhanced features that can improve the user experience and solve problems in system design
-ii. how they use basic techniques for measuring, controlling, storing data and displaying information in practical situations 
-iii. electronic prototyping platforms and interated development environments (IDE) for simulation in virtual environments
-iv. the use of programmable components and microcontrollers found in products and systems such as robotic arms or cars 
-v. creating flowcharts to describe processes and decisions within a process to control input and output components.
-
+   Mechanical failure. Some types of mechanical failure mechanisms are: excessive deflection, buckling, ductile fracture, brittle fracture, impact, creep, relaxation, thermal shock, wear, corrosion, stress corrosion cracking, and various types of fatigue.
+   [[./img/fractures.jpg]]
 #+END_VERSE
 

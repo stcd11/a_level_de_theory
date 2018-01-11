@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: 7 - Manufacturing Processes and Techniques
+#+TITLE: Technical Understanding 2
 #+AUTHOR: C. Delport
 
 #+BEGIN_HTML
@@ -16,7 +16,7 @@
 </div>
 </div>
 <center>
-<img src='img/smt_board.jpg' width=30%>
+<img src='img/ArduinoUNO.jpg' width=30%>
 </center>
 #+END_HTML
 
@@ -103,72 +103,73 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Materials and processes used to make iterative models
+* How electronic systems offer functionality to design solutions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+[[http://www.bbc.co.uk/schools/gcsebitesize/design/systemscontrol/electronicsrev1.shtml][BBC bitesize page]]
+
+#+BEGIN_VERSE
+6.4a Demonstrate an understanding of how electronic systems provide input, control and output process functions, including:
+
+i. switches and sensors, to produce signals in response to a variety of inputs
+ii. programmable control devices
+iii. signal amplification
+iv. devices to produce a variety of outputs including light, sound, motion.
+
+6.4b Demonstrate an understanding of the function of an overall system, referring to aspects, including:
+
+i. passive components: resistors, capacitors, diodes 
+ii. inputs: sensors for position, light, temperature, sound, infra-red, force, 
+rotation and angle
+iii. process control: programmable microcontroller
+iv. signal amplification: MOSFET, driver ICs
+v. outputs: LED, sounder, solenoid, DC motor, servo motor
+vi. analogue and digital signals and conversion between them
+vii. open and closed loop systems including feedback in a system and how it 
+affects the overall performance
+viii. sub-systems and systems thinking.
+
+6.4c Demonstrate an understanding of what can be gained from interfacing electronic circuits with mechanical and pneumatic systems and components, such as:
+
+i  the ability to add electronic control as an input to mechanical or pneunamitc 
+output
+ii the use of flow restrictors to control cylinder speed
+iii  the use of sensors to measure rotational speed, strain/force, distance.
+
+6.4d Demonstrate an understanding of networking and of communication protocols, such as:
+
+i wireless devices, such as: RFID, NFC, Wi-Fi, bluetooth
+ii embedded devices
+iii smart objects
+iv  networking electronic products to exchange information.
+
+6.4e Demonstrate an understanding of the basic principles of electricity, including:
+
+i. voltage
+ii. current
+iii. ohms law
+iv. power
+
+#+END_VERSE
+
+* How programmable devices and smart technologies provide functionality in system design
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
 #+BEGIN_VERSE
-7.1a Understand that 3D iterative models can be made from a range of materials and components to create block models and working prototypes to communicate and test ideas, moving parts and structural integrity
+6.5a Demonstrate an understanding of how smart materials change the functionality of engineered products, such as:
 
-7.1b Demonstrate an understanding of simple processes that can be used to model ideas using hand tools and digital tools such as rapid prototyping, or digital simulation packages.
+i  colour changes, shape-shifting, motion control, self-cleaning and self-healing. 
 
-#+END_VERSE
+6.5b Demonstrate an understanding of how programmable devices are used to add functionality to products, relating to coding of and specific applications of programmable components, such as:
 
-* Materials and processes used to make final prototypes 
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-
-#+BEGIN_VERSE
-7.2a Understand how to select and safely use of common workshop tools, equipment and machinery to manipulate materials by methods of:
-
-*i.* wasting/subtraction processes such as cutting, drilling, turning, milling.
-
-*ii.* addition processes such as soldering, brazing, welding, adhesives, fasteners.
-
-*iii.* deforming and reforming processes such as bending, vacuum forming.
-
-7.2b Demonstrate an understanding of the role of computer-aided manufacture (CAM) and computer-aided engineering (CAE) to fabricate parts, such as:
-
-*i* additive manufacturing (3D printing) to fabricate a usable part.
-
-*ii* subtractive CNC manufacturing such as laser/plasma cutting, milling, turning and routing.
-
-7.2c Demonstrate an understanding of measuring instruments and techniques used to ensure that products are manufactured accurately or within tolerances as appropriate.
-
-7.2d Understand how the available forms, costs and working properties of materials contribute to the decisions about suitability of materials when developing and manufacturing their own products.
+i. how they incorporate enhanced features that can improve the user experience and solve problems in system design
+ii. how they use basic techniques for measuring, controlling, storing data and displaying information in practical situations 
+iii. electronic prototyping platforms and interated development environments (IDE) for simulation in virtual environments
+iv. the use of programmable components and microcontrollers found in products and systems such as robotic arms or cars 
+v. creating flowcharts to describe processes and decisions within a process to control input and output components.
 
 #+END_VERSE
-
-* Materials and processes used to make commercial products
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-
-#+BEGIN_VERSE
-7.3a Demonstrate an understanding of the industrial processes and machinery used for manufacturing component parts in various materials, including:
-
-*i.* polymer moulding methods, such as injection moulding, blow moulding, compression moulding and thermoforming.
-
-*ii.* metal casting methods such as sand casting and die casting.
- 
-*iii.* sheet metal forming methods using equipment such as punches, rollers, shears and stamping machines.
-
-7.3b Demonstrate an understanding of the industrial methods used for assembling electronic products, such as:
-
-*i.* surface mount technology (SMT): PCB assembly using solder stencils, pick-and-place machines and reflow soldering ovens.
-
-7.3c The methods used for manufacturing at different scales of production, including:
-
-*i.* one-off, bespoke production.
-
-*ii.* batch production.
-
-*iii.* mass production.
-
-*iv.* lean manufacturing and just-in-time (JIT) methods.
-
-#+END_VERSE
-
 

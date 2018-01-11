@@ -42,27 +42,31 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:6.html][Lesson 06 - Technical understanding]]
+* [[file:6.html][Lesson 06 - Technical understanding part 1]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:7.html][Lesson 07 - Manufacturing processes and techniques]]
+* [[file:7.html][Lesson 06 - Technical understanding part 2]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./8.html][Lesson 08 - Viability of Design solution]]
+* [[file:8.html][Lesson 07 - Manufacturing processes and techniques]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
+* [[./9.html][Lesson 08 - Viability of Design solution]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
-* [[./9.html][Lesson 09 - Health and Safety]]
+* [[./10.html][Lesson 09 - Health and Safety]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./10.html][Lesson 10 - SMES considerations]]
+* [[./11.html][Lesson 10 - SMES considerations]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[./14.html][Lesson 11 - General Materials Investigation]]
+* [[./12.html][Lesson 11 - General Materials Investigation]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
@@ -72,11 +76,11 @@
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
 
-* [[./11.html][Lesson 13 - Maths]]
+* [[./14.html][Lesson 13 - Maths]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
-* [[./12.html][Lesson 14 - Science]]
+* [[./15.html][Lesson 14 - Science]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      

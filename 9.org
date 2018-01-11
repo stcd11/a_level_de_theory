@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: 9 - Health and Safety
+#+TITLE: 8 - Viability of Design Solutions
 #+AUTHOR: C. Delport
 
 #+BEGIN_HTML
@@ -16,7 +16,7 @@
 </div>
 </div>
 <center>
-<img src='img/safety.jpg' width=30%>
+<img src='img/designsolutions.jpg' width=30%>
 </center>
 #+END_HTML
 
@@ -103,19 +103,39 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Ensuring Health and Safety when working with materials in a workshop
+* Assess whether a design solution meets its stakeholder's requirementss
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
 #+BEGIN_VERSE
-9.1a Demonstrate an understanding of safe working practices in the workshop situation, including:
+8.1a Critically evaluating how a design solution has met its intended requirements, including:
 
-*i.* understanding the need for risk assessments.
+*i.* functionality.
 
-*ii.* identifying hazards and implementing control measures to minimise risks.
+*ii.* ease of use and inclusivity of the solution.
+ 
+*iii.* user needs.
 
-9.1b Demonstrate an understanding of how to work safely with specialist tools, techniques, processes, equipment and machinery during the design and manufacture of products. 
+8.1b Demonstrate an understanding of the needs and methods for testing design solutions with stakeholders throughout the design development, and when testing the success of a product or system.
+
+8.1c Demonstrate an understanding of the importance of testing the feasibility of getting a product to market including considerations of cost, packaging and appeal.
+
+#+END_VERSE
+
+* Assess whether the design solution meets the criteria of the technical specification
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+#+BEGIN_VERSE
+8.2a Demonstrate an understanding of the methods and importance of undertaken physical testing on a product to ensure it meets the criteria it is meant to fulfil, including:
+
+*i.* functionality.
+
+*ii.* accuracy.
+ 
+*iii.* performance.
 
 #+END_VERSE
 
