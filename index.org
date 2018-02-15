@@ -89,10 +89,6 @@
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
 
-* [[./theory.doc][Exam Theory topic list]]
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: link-heading
-:END:
 * [[http://www.ocr.org.uk/qualifications/as-a-level-gce-design-and-technology-h004-h006-h404-h406-from-2017/assessment/#as-level][OCR Past Exam papers]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
