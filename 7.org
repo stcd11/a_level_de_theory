@@ -228,14 +228,59 @@ iv. *Signal amplification: MOSFET, driver ICs.*
     A motor driver IC is an integrated circuit chip which is usually used to control motors in autonomous robots. Motor driver ICs act as an interface between microprocessors in robots and the motors in the robot. The most commonly used motor driver IC's are from the L293 series such as L293D, L293NE, etc.
     [[./img/motor_driver.jpg]]
 v. *Outputs: LED, sounder, solenoid, DC motor, servo motor.*
+
+- A light-emitting diode (LED) is a two-lead semiconductor light source. It is a p–n junction diode that emits light when activated. When a suitable voltage is applied to the leads, electrons are able to recombine with electron holes within the device, releasing energy in the form of photons. This effect is called electroluminescence, and the color of the light (corresponding to the energy of the photon) is determined by the energy band gap of the semiconductor. LEDs are typically small (less than 1 mm2) and integrated optical components may be used to shape the radiation pattern.
+
+- Appearing as practical electronic components in 1962, the earliest LEDs emitted low-intensity infrared light. Infrared LEDs are still frequently used as transmitting elements in remote-control circuits, such as those in remote controls for a wide variety of consumer electronics. The first visible-light LEDs were of low intensity and limited to red. Modern LEDs are available across the visible, ultraviolet, and infrared wavelengths, with very high brightness.
+[[./img/LED_labels.png]]
+[[./img/LED_symbol.png]]
+
+- A sounder or buzzer is an audio signalling device, which may be mechanical, electromechanical, or piezoelectric (piezo for short). Typical uses of buzzers and beepers include alarm devices, timers, and confirmation of user input such as a mouse click or keystroke.
+[[./img/buzzer.jpg]]
+
+- A solenoid is a coil wound into a tightly packed helix. The term was invented by French physicist André-Marie Ampère to designate a helical coil.
+
+- In engineering, the term may also refer to a variety of transducer devices that convert energy into linear motion. 
+[[./img/solenoid.jpg]]
+[[./img/solenoid_operation.jpg]]
+
+- A DC motor is any of a class of rotary electrical machines that converts direct current electrical energy into mechanical energy. The most common types rely on the forces produced by magnetic fields. Nearly all types of DC motors have some internal mechanism, either electromechanical or electronic, to periodically change the direction of current flow in part of the motor.
+[[./img/DC_motor.jpg]]
+[[./img/DC_motor_operation.jpg]]
+
+- A servomotor is a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedback. It also requires a relatively sophisticated controller, often a dedicated module designed specifically for use with servomotors.
+[[./img/servo.jpg]]
+[[./img/servo_motor_operation.png]]
+[[./img/servo_inner.jpg]]
 vi. *Analogue and digital signals and conversion between them.*
+
+- To learn more about analogue and digital signals, and the difference between them, click on this [[http://www.bbc.co.uk/schools/gcsebitesize/design/electronics/logicrev1.shtml][BBC Bitesize]] link.
+
+- To learn about a analogue-to-digital signal converter (ADC converter), please click on [[https://en.wikipedia.org/wiki/Analog-to-digital_converter][Analogue-to-digital]] converter link.
+
+- To learn about how we convert digital-to-analogue (DAC converter), click on [[https://en.wikipedia.org/wiki/Digital-to-analog_converter][digital-to-analogue]] converter link.
+
 vii. *Open and closed loop systems including feedback in a system and how it 
      affects the overall performance.*
+
+- In an open-loop controller, also called a non-feedback controller, the control action from the controller is independent of the "process output", which is the process variable that is being controlled. It does not use feedback to determine if its output has achieved the desired goal of the input command or process "set point".
+
+- A Closed-loop Control System, also known as a feedback control system is a control system which uses the concept of an open loop system as its forward path but has one or more feedback loops (hence its name) or paths between its output and its input. The reference to “feedback”, simply means that some portion of the output is returned “back” to the input to form part of the systems excitation.
+[[./img/openvsclosedloop.jpg]]
+
+- For more information on these systems and how they affect the overall performance of the system, click on this [[http://www.bbc.co.uk/schools/gcsebitesize/design/electronics/industrial_designrev3.shtml][BBC bitesize]] link.
+
 viii. *Sub-systems and systems thinking.*
+
+- A complex system contains many inputs, processes and outputs. Some of these might form smaller systems - called 'sub-systems' - that work within the system. For example, the systems diagram for a car can have over 400 boxes and more than 10 sub-systems (including steering, braking, lighting etc).
+
+- Systems diagrams can be used to show how these different sub-systems relate to each other.
+
+- Click on this [[http://www.bbc.co.uk/schools/gcsebitesize/design/electronics/industrial_designrev2.shtml][BBC bitesize]] link for further information on sub-systems and systems thinking, along with block diagrams.
 
 6.4c Demonstrate an understanding of what can be gained from interfacing electronic circuits with mechanical and pneumatic systems and components, such as:
 
-i  the ability to add electronic control as an input to mechanical or pneunamitc 
+i  the ability to add electronic control as an input to mechanical or pneumatic 
 output
 ii the use of flow restrictors to control cylinder speed
 iii  the use of sensors to measure rotational speed, strain/force, distance.

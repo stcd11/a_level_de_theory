@@ -1,0 +1,156 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Technical Understanding 3
+#+AUTHOR: C. Delport
+
+#+BEGIN_HTML
+<div class="github-fork-ribbon-wrapper left">
+<div class="github-fork-ribbon">
+<a href="https://github.com/stcd11/a_level_de_theory">Fork me on GitHub</a>
+</div>
+</div>
+<center>
+<img src='img/ArduinoUNO.jpg' width=30%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+* How electronic systems offer functionality to design solutions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+#+BEGIN_HTML
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EZIufczc7fE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+#+BEGIN_VERSE
+6.4c Demonstrate an understanding of what can be gained from interfacing electronic circuits with mechanical and pneumatic systems and components, such as:
+
+i  the ability to add electronic control as an input to mechanical or pneumatic 
+output
+ii the use of flow restrictors to control cylinder speed
+iii  the use of sensors to measure rotational speed, strain/force, distance.
+
+6.4d Demonstrate an understanding of networking and of communication protocols, such as:
+
+i wireless devices, such as: RFID, NFC, Wi-Fi, bluetooth
+ii embedded devices
+iii smart objects
+iv  networking electronic products to exchange information.
+
+6.4e Demonstrate an understanding of the basic principles of electricity, including:
+
+i. voltage
+ii. current
+iii. ohms law
+iv. power
+
+#+END_VERSE
+
+* How programmable devices and smart technologies provide functionality in system design
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+#+BEGIN_VERSE
+6.5a Demonstrate an understanding of how smart materials change the functionality of engineered products, such as:
+
+i  colour changes, shape-shifting, motion control, self-cleaning and self-healing. 
+
+6.5b Demonstrate an understanding of how programmable devices are used to add functionality to products, relating to coding of and specific applications of programmable components, such as:
+
+i. how they incorporate enhanced features that can improve the user experience and solve problems in system design
+ii. how they use basic techniques for measuring, controlling, storing data and displaying information in practical situations 
+iii. electronic prototyping platforms and interated development environments (IDE) for simulation in virtual environments
+iv. the use of programmable components and microcontrollers found in products and systems such as robotic arms or cars 
+v. creating flowcharts to describe processes and decisions within a process to control input and output components.
+
+#+END_VERSE
+
