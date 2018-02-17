@@ -140,11 +140,17 @@ Drilling is a cutting process that uses a drill bit to cut a hole of circular cr
 [[./img/drilling_process.jpg]]
 
 Turning is a form of machining, a material removal process, which is used to create rotational parts by cutting away unwanted material. The turning process requires a turning machine or lathe, workpiece, fixture, and cutting tool.
-[[./img/turning.png]]
-
+#+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8EsAxOnzEms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+#+BEGIN_VERSE
 Milling is the most common form of machining, a material removal process, which can create a variety of features on a part by cutting away the unwanted material. The milling process requires a milling machine, workpiece, fixture, and cutter.
-[[./img/milling.png]]
-
+#+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eJR-G-3Kvsk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+#+BEGIN_VERSE
 *ii.* addition processes such as soldering, brazing, welding, adhesives, fasteners.
 
 *Soldering* is a process in which two or more metal items are joined together by melting and then flowing a filler metal into the joint—the filler metal having a relatively low melting point. Soldering is used to form a permanent connection between electronic components.
