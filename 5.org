@@ -7,7 +7,7 @@
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 #+TITLE: 5 - Materials and Component Considerations
-#+AUTHOR: C. Delport
+#+AUTHOR: S. Brown
 
 #+BEGIN_HTML
 <div class="github-fork-ribbon-wrapper left">
@@ -89,93 +89,154 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: intro
 :END:
-** What are PIC chips?
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: research
-:END:
-Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
-In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
-PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
-Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
-
-While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
-** When would I use a PIC chip?
-Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
-In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
-In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
 * Factors that influence the selection of materials that are used in engineered products
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-
-#+BEGIN_VERSE
-Understand that the selection of materials and components is influenced by a range of factors, including:
-
-*i.* functional performance.
- 
-*ii.* aesthetics.
-
-*iii.* cost and availability.
-
-*iv.* properties and characteristics.
-
-*v.* environmental considerations.
-
-*vi.* social, cultural and ethical factors.
-
-#+END_VERSE
-
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Understand that the selection of materials and components is influenced by a range of factors, including:
+    - functional performance
+    - aesthetics
+    - cost and availability
+    - properties and characteristics
+    - environmental considerations
+    - social, cultural and ethical factors
+- As an engineer or designer plans a new product or project, the question of what to make it from needs to be carefully considered.
+- In terms of electronic components, *functional performance* might refer to how much current a resistor can handle or how quickly a transistor can turn on and off.
+- With materials, *functional performance* might refer to how much compressive force a particular concrete can withstand before rupturing, the ductility of a metal or how hard-wearing a particular grade of steel is when designing gears.
+- *Aesthetics* concerns how a product looks. Not all clients will value this; someone wanting a robot arm for moving car chassis about a factory would want all design effort to be put into making the arm work as quickly, reliably, safely and cost-effectively as possible.
+- A company designing bottles for high-end perfumes would put *aesthetics* high on their list of considerations. Does the material allow the perfume to be clearly seen? Is the density of the glass sufficiently high to give a good tactile experience? Does it need a dye in the glass to further enhance it?
+- *Cost and availability* (availability will dictate cost) will always heavily influence selection; a low-budget electronic mousetrap for first-time homebuyers would see the designers aim to economise in every area. Could a 555 timer be used in place of a PIC? How thin can the walls of the housing be? Could it be a little smaller?
+- *Properties and characteristics* in the context of components can refer to what their specific capabilities are. The 4000 series logic ICs offer a range of chips, each of which performs a specific job (E.g. Decade counter, 7-segment display driver, AND gates). These components can also have quirks (e.g being especially sensitive to electrostatic discharge and needing special handling. 
+- Every material will have its own unique properties; you can research different woods, manufactured boards, plastics and metals, but a few examples are: 
+    - Copper and its alloys (e.g. Brass) have anti-microbial effects and are able to kill bateria effectively within a few hours
+    - Stainless steel will rust less quickly than other grades of steel
+    - Nylon is often selected to make small gears with as it is self-lubricating
+    - Balsa is the least dense hardwood, and so is commonly selected for making light-weight models
+    - Because its made with sawdust and urea formaldehyde, MDF is usually very flat and consistent throughout the material (wood will have a grain and 'knots' in it, making it harder to cut)
 * Materials and components that should be selected when designing and manufacturing products and prototypes.
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-
-#+BEGIN_VERSE
-5.2a Understand that most products consist of multiple materials and that design engineers are required to discriminate between them appropriately for their use, including:
-
-*i.* Ferrous, non-ferrous and alloy metals, such as: 
-
-• mild steel, aluminium and brass.
-
-*ii.* Thermo softening and thermosetting polymers, such as: 
-
-• HIPS, ABS and polyester resin, epoxy resin and polyimides.
- 
-*iii.* Timbers and manufactured boards, such as:
-
-• oak, plywood and MDF.
-
-*iv.* Textiles used for reinforcement and coverings, such as: 
-
-• geotextiles used in civil engineering and construction.
-
-*v.* composite materials, such as:
-
-• fibre-reinforced plastics, glass-reinforced plastics (GRP) and carbon fibre (CFRP).
-
-*vi.* Smart materials, such as:
-
-• shape memory alloy, motion control gel, self-healing materials, thermochromic, photochromic and electrochromic materials.
-
-*vii.* Modern materials, such as:
-
-• sandwich panels, e-textiles, rare earth magnets, high performance alloys and super-alloys, graphene and carbon nanotubes.
-
-#+END_VERSE
-
-* Important considerations of the properties/characteristics of materials
+** Materials and components that should be selected when designing and manufacturing products and prototypes.
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
+:HTML_CONTAINER_CLASS: learn
 :END:
+- A systems engineer needs to know something about all aspects of Technology in order to produce the best work. One aspect of this is knowing what’s available when selecting materials to fabricate products with. For both the exam and your coursework, you will require a general understanding of the following groupings of materials. Links to external sites have been included throughout; it is strongly recommended that you read up on exa
+** Metals
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- *Ferrous* metals are those that contain [[http://en.wikipedia.org/wiki/Iron][iron]]. Steel, for example. All ferrous metals will rust over time, due to their iron content. All metals change their properties, dependent on how they are heated and cooled.
+- [[http://en.wikipedia.org/wiki/Non-ferrous_metal][*Non-ferrous*]] metals are those which do not contain iron, such as brass.
+    - A good conductor of electricity and heat, [[http://en.wikipedia.org/wiki/Aluminium][aluminum]] is a light-weight metal, used in aircraft construction, for power cables, drinks cans and in cookware.  
+    - [[http://en.wikipedia.org/wiki/Titanium][Titanium]] is a very strong metal, used in making the strongest and lightest parts of modern fighter jet planes, as well as in high-performance sports equipment, medical implants and jewelry. It does not corrode, and has good resistance to sea water and chlorine.
+- [[http://en.wikipedia.org/wiki/Alloy][*Alloys*]] are a mixture of two or more elements, one of which is a metal.  They have properties different to those of the metals they are composed of. A few common examples are:
+    - [[http://en.wikipedia.org/wiki/Brass][Brass]]. Made since biblical times from copper and zinc, brass is used in low-friction applications (e.g. gears and locks), and has a golden colour. It is also used in musical instruments as it has pleasant acoustic properties. 
+    - [[http://en.wikipedia.org/wiki/Bronze][Bronze]]. Made from copper and tin, this was the first alloy to be discovered. Bronze is used when it is desirable for parts to be able to last a long time, and not be corroded by air or water. 
+    - Different [[http://en.wikipedia.org/wiki/Steel][steel]]s are made by adding carbon to iron (0.02%-1.7% carbon). Steel is harder and stronger than iron alone; adding additional carbon results in harder and stronger steel, at the expense of it becoming increasingly brittle. It is used for car bodies, bridge construction, buildings and tools.  
+    - Stainless steel is made with the addition of around 11% chromium, which adds an increased resistance to staining and rusting compared to regular steel. It is used for surgical instruments, sinks and cutlery.
+** Plastics
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Polymers (and the discovery of plastics) revolutionized the 20th century, giving rise to the mass production of strong, cheaply produced products for the masses. The environmental cost was only considered in the latter half of the 20th century, when the impact of oil-based products which took hundreds of years to break down in landfill sites started to be realized. 
+- A [[http://en.wikipedia.org/wiki/Thermoplastic][*thermoplastic*]] is one that becomes soft when heated and hard when cooled. 
+- [[http://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene][ABS]] (Acrylonitrile butadiene styrene) is highly impact resistant and tough. Commonly used for musical instruments, golf clubs, car trim components, car bumpers, medical devices for blood access, protective headgear, whitewater canoes and Lego bricks.
+- [[http://en.wikipedia.org/wiki/Poly(methyl_methacrylate)][Acrylic]] (Polymethyl methacrylate) is stiff, hard (but scratches easily), durable, brittle in small sections, a good electrical insulator, which machines and polishes well. It is used for many applications, such as making signs, covers of storage boxes, aircraft canopies and windows, covers for car lights, wash basins and baths.
+- [[http://en.wikipedia.org/wiki/Nylon][Nylon]] (Polyamide) is creamy in colour, tough, fairly hard, resists wear, self-lubricating and has good resistance to chemicals. Commonly used to produce bearings, gear wheels, casings for power tools, hinges for small cupboards, curtain rail fittings and clothing. 
+- [[http://en.wikipedia.org/wiki/Polystyrene#Copolymers][HIPS]] (High Impact Polystyrene) is economical and impact-resistant plastic that is easy to machine and fabricate. Used for low strength structural applications when impact resistance, machinability, and low cost are required. It is frequently used machining pre-production prototypes since it has excellent dimensional stability and is easy to fabricate, paint, and glue.
+- A [[http://en.wikipedia.org/wiki/Thermosetting_polymer][*thermosetting plastic*]] (also known in industry as thermoset) is a plastic which irreversibly cures. They typically start off in a liquid form (so they can be molded into shape), and are then cured by a process such as heat, chemical reaction or irradiation to set them.
+- [[http://en.wikipedia.org/wiki/Urea-formaldehyde][Urea formaldehyde]] provides high tensile strength, good surface hardness and heat resistance as well as being a good electrical insulator. It is used for electrical fittings, handles and control knobs and to make adhesives. Its is also used as the bonding agent in.
+- [[http://en.wikipedia.org/wiki/Melamine_resin][Melamine formaldehyde]] is stiff, hard, strong and resists some chemicals and stains. It is commonly used in laminates for work surfaces, electrical insulation and tableware. 
+- [[http://en.wikipedia.org/wiki/Epoxy][Epoxy resin]] is a good electrical insulator, which is hard, brittle unless reinforced and resists chemicals well. It is used mainly for casting and encapsulation, adhesives and for the bonding of other materials.
+- Polyester resin works as an adhesive (less strong than epoxy) and is commonly used for boat hull repairs (when combined with fibreglass cloth) and can be used for casting. It has a strong, unpleasant smell, which many find off-putting.
+- [[https://en.wikipedia.org/wiki/Polyimide][Polyimides]] are strong synthetic polymers that are also astoundingly heat and chemical resistant. Their properties are so great that these materials often replace glass and steel in many demanding industrial applications. They are used for the struts and chassis in some cars as well as some parts under-the-hood because they can withstand the intense heat and corrosive lubricants, fuels, and coolants cars require. Polyimides are also self-extinguishing; if they catch fire, they quickly char and then put themselves out. An example is kaptan tape, which we use on the bed o the 3D printer to encourage the first layer of the model to bond to the machine bed.
+** Woods
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Wood has been used since pre-historic times to provide fuel for heat, and as a building material to produce homes and tools. We divide woods into three categories.
+- [[http://en.wikipedia.org/wiki/Hardwood][*Hardwoods*]] come from broad-leaved, deciduous trees. The main hardwood timbers are ash, beech, birch, cherry, elm, mahogany, oak, balsa and teak.
+     - Ash is light, creamy-brown in colour and both tough and flexible. It is often used to make sports equipment, wooden ladders and tool handles.
+     - Beech is white to pinkish-brown in colour, close-grained, hard, tough, strong, but warps easily. Commonly found in	furniture, toys and tool handles.
+     - Elm is light to medium brown in colour, tough, resists splitting, and is durable in water. Elm is commonly used for indoor and outdoor furniture.
+     - Mahogany is Pink to reddish-brown colour, fairly strong, durable and used for good quality furniture.
+     - Oak is light brown colour, strong, hard, and tough. It corrodes steel screws and fittings. It is used for interior woodwork and good quality furniture.
+     - Balsa is creamy/light brown in colour, which is extremely fast growing and very lightweight. While low in density, it is high in strength and is commonly used for light, stiff structures, such as model aircraft and model buildings.  
+- [[http://en.wikipedia.org/wiki/Softwood][*Softwoods*]] are from fast-growing coniferous trees which are evergreen, needle-leaved, cone-bearing trees, such as cedar, fir and pine.
 
-#+BEGIN_VERSE
-5.3a Understand the characteristics and properties of materials that are significant in Design Engineering, such as:
+- Tip: Hardwood and Softwood do not refer to the properties of the wood: some softwoods can be hard and some hardwoods can be soft.
+** Manmade Boards
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- [[http://en.wikipedia.org/wiki/Engineered_wood][Manmade boards]] are created from other woods, to give specific properties (and are usually relatively cheap compared to hard and softwoods).
+- *Blockboard* is built up with a core of softwood strips bonded together with adhesive and covered with a sheet of plywood on either side. Used as a building material and for furniture manufacture including fitted kitchens / bedrooms.
+- [[http://en.wikipedia.org/wiki/Particle_board][*Chipboard*]] is made up of small chips of wood bonded together with resin and formed into sheets by compression. It is not as strong as plywood and block board but it is not expensive. Chipboard is often covered with a plastic laminate or wood veneer and used in furniture. Chipboard could contain partials of metal, grit and any other rubbish that gets taken up into a tree whilst growing, is also the most unstable board because of air pockets, will swell up to twice its thickness when damp. 	
+- *Hardboard* is made from wood fibres that have been pulped. The pulp is put under pressure until the fibres bond to produce a tough board that is smooth on one side and rough on the other. It is not as strong as the other boards. When supplied, it is smooth one side and rough the other, because of the drying process and is flexible, generally buckles at the first sign of dampness in the air, used mainly for backs of cupboards.
+- [[http://en.wikipedia.org/wiki/Medium-density_fibreboard][*MDF*]] (Medium Density Fibreboard) is quality board, which is relatively cheap. This board is composed of fine wood dust and resin pressed into a board. MDF is the most stable manmade board, and can have a ply or laminate finish added to it to make its finish more aesthetically pleasing. Low Density and High density re also available, as it water resistant MDF (which is usually green in colour). MDF can be worked, shaped and machined easily. Paint can be applied to it without the need for an undercoat or primer. Used in the building and furniture trades, as well as in schools.
+- [[http://en.wikipedia.org/wiki/Plywood][*Plywood*]] is made from veneers (thin plies) of timber with each grain layer being at right angles to each other and bonded together by resin and pressure. A number of grades are available, designed to suit a variety of situations, such as Marine plywood that is moisture resistant (although it will still warp) or weatherproof plywood. Ply is the only board that uses layers of pure wood. If the grains are laid parallel with each other it becomes flexible along the grain; if laid at right angles it becomes more rigid. 
 
-• density, tensile strength, strength to weight ratio, hardness, durability, thermal and electrical conductivity, corrosion resistance, stiffness, elasticity, plasticity, impact resistance, malleability and ductility, machinability.
-
-5.3b Understand how the available forms, costs and properties of materials contribute to the decisions about suitability of materials when developing and manufacturing their own products.
-
-
-#+END_VERSE
-
-
+- All boards come in standard thicknesses of 3, 6, 9, 12, 15, 18 & 25mm.
+** Textiles
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Textiles are used for reinforcement and visually attractive coverings in civil engineering and construction.
+- [[https://en.wikipedia.org/wiki/Geotextile][Geotextiles]] are materials designed to work with soil, such as membranes that allow water to pass through, but that resist weeds growing through them. 
+- Leather (made from cow hide) is hard-wearing, can have an attractive glossy or matte finish and can be wiped clean. This makes it a popular covering for furniture like sofas. 
+** Composites
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- [[https://en.wikipedia.org/wiki/Composite_material][Composite materials]] are those which are made by bringing two or more different types of material together to produce a new material with unique properties.
+- [[https://en.wikipedia.org/wiki/Fibre-reinforced_plastic][Fibre-reinforced plastics]] including [[https://en.wikipedia.org/wiki/Fiberglass][Glass-Reinforced Plastics (GRP)]] and [[https://en.wikipedia.org/wiki/Carbon_fiber_reinforced_polymer][Carbon fibre (CFRP)]] are composite materials made of a polymer matrix reinforced with fibres.
+- Carbon fibre is an extremely strong and light fiber-reinforced plastic which contains carbon fibers. It can be expensive to produce but are commonly used wherever high strength-to-weight ratio and rigidity are required, such as aerospace, automotive, civil engineering, sports goods and an increasing number of other consumer and technical applications. The [[https://en.wikipedia.org/wiki/Carbon_fiber_reinforced_polymer#Applications][Wikipedia link]] provides examples of specific real-world applications.
+- Cheaper and more flexible than carbon fibre, GRP (fibreglass) is stronger than many metals by weight, and can be molded into complex shapes. Applications include aircraft, boats, automobiles, bath tubs and enclosures, swimming pools, hot tubs, septic tanks, water tanks, roofing, pipes, cladding and surfboards.
+** Smart Materials
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Advances in technology have yielded cutting edge, Smart materials, which have been created to provide specific properties. 
+- [[http://en.wikipedia.org/wiki/Shape-memory_alloy][*Shape memory alloy*]] is sometimes called ‘Nitinol’, as it is a composed of nickel and titanium. It can be folded to form complex shapes quite easily and it conducts electricity, but is very expensive when compared to ordinary steel or even copper wire. However, it has properties that make it very special:
+  1. The wire has a memory - for example, if it is folded to form a shape and then heated above 90°C it returns to its original shape.
+  2. The material can also be ‘programmed’ to remember a shape. This can be achieved by folding the wire to a particular shape and clamping it in position. The wire is then heated for approximately five minutes at precisely 150° or pass an electric current through the wire. If the wire is now folded into another shape and then placed in hot water it returns to the original ‘programmed’ shape. 
+- Motion control gels (e.g. smart grease) can be used to slow output speeds of shafts, or to dampen the movement on systems like volume sliders in a mixing desk (See a [[https://www.stem.org.uk/resources/elibrary/resource/31610/smart-grease][demo here]]).
+- Inspired by nature, self-healing materials are those which have some ability to repair damage over time. This is seen in self-healing concrete which contains a bacteria and a food source. When water creeps into the concrete and activates the bacteria, it excretes limestone which heals the crack. You can watch a video about this [[here]].
+- thermochromic, photochromic and electrochromic materials are those which change their colour in response to temperature, light and electric current respectively. The last of these is popular in making windows that can be toggled between frosted and clear at the push of a button. 
+- *Muscle wire* is also a nickel and titanium alloy. At room temperature it can be stretched by a small force. However, when a small current is passed through the wire it returns to a much harder form and to its original length with a reasonable force. When in use a muscle wire can be stretched up to 8 percent of its length and still recover. However, this can only be done a few times until it breaks or stops returning to its original length. Its life cycle can be extended dramatically if it is stretched to between 3 to 5 percent of its overall length. Within this range it will go through the stretching and return cycle millions of times.
+- [[http://en.wikipedia.org/wiki/Polycaprolactone][*Polymorph*]] is a thermoplastic material that can be shaped and reshaped any number of times. it is normally supplied as granules that look like small plastic beads. In the classroom it can be heated in hot water and when it reaches 62 degrees centigrade the granules form a mass of ‘clear’ material. When removed from the hot water it can be shaped into almost any form and on cooling it becomes as solid as a material such as nylon. Although expensive, polymorph is suitable for 3D modeling as it can be shaped by hand or pressed into a shape through the use of a mold.
+- [[http://en.wikipedia.org/wiki/Quantum_tunnelling_composite][*Quantum Tunneling Composite*]] (QTC) is available as small “pills”. This material provides increasing levels of conductivity as pressure is applied to it, making it useful for dimmer switches, pressure sensors and for integrating into clothing.
+- Other materials have only recently been developed. 
+  + [[https://en.wikipedia.org/wiki/Sandwich_panel][Sandwich panels]] are any material which is made by sandwiching a (different) material between two slices of a material. This is used in aircraft, to create light-weight, well-insulated planes.
+  + [[https://en.wikipedia.org/wiki/E-textiles][e-textiles]] are garments and products which have the ability to have electronics integrated into them. These can be either for aesthetic reasons (e.g. clothing that lights up), or functional (e.g. trainers containing a step-counter).
+  + [[https://en.wikipedia.org/wiki/Rare-earth_magnet][Rare earth]] (e.g. neodymium) magnets are the strongest permenant magnets made. These allow for the creation of small (but powerful) headphones, greater distance when being used with a reed switch or for creating turbines for energy generation.
+  + [[https://en.wikipedia.org/wiki/Superalloy][High performance / super-alloys]] have highly specialised properties, and are used extenstively in marine applications or for jet-propulsion. 
+  + Graphene is a (form) of carbon consisting of a single layer of carbon atoms arranged in a hexagonal lattice. While not widely used yet, it could have various material/device applications, including solar cells, LEDs, touch panels and smart windows or phones.
+  + Carbon nanotubes are carbon molecules organised in a cylindrical structure. They have unique Mechanical, electrical, optical and thermal properties. They are not used extensively at the moment, but a number of potential applications have been identified (click [[https://en.wikipedia.org/wiki/Carbon_nanotube#Current][here]] for list)
+** Comparative Testing 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- When selecting materials for a particular task, it may be necessary to test different samples to ensure that they will need the product specification (e.g. for weight, cost, durability, etc). Many of the explanations here have been taken from the (linked) Wikipedia pages. These are worth a skim-read, as you will be able to then use these vocab words confidently in exam answers and coursework where appropriate. 
+- [[http://en.wikipedia.org/wiki/Ultimate_tensile_strength][*Tensile strength*]] (how much something can be stretched before it breaks) can be tested in a workshop by clamping a sample, then hanging increasing amounts of weight from it until the sample breaks. Some materials will start to stretch first, whereas others hold their shape and break suddenly. 
+- [[http://en.wikipedia.org/wiki/Compressive_strength][*Compressive strength*]] (resistance to deformation by a crushing load) can be measured by finding the amount of weight required to deform a material. Some materials rupture when the load exceeds their ultimate compressive strength (e.g. Concrete), whereas other materials (e.g. Wood and some plastics) deform. With non-rupturing materials, measurements can be taken of how much force is required to deform samples by 1%, 5%, 10%, etc. 
+- [[http://en.wikipedia.org/wiki/Hardness][*Hardness*]] can be measured by taking samples of the different materials that are to be tested which have a sharp corner, and seeing which sample can scratch which material. By comparing all the materials, it will be possible to rank all the samples to establish which is the hardest. 
+- [[http://en.wikipedia.org/wiki/Toughness][*Toughness*]] (impact resistance) can be tested by placing identical-sized samples of materials in a vice, then subjecting each one to an identical impact (e.g. a hammer blow set up by a jig, and dropped from the same angle each time), and measuring the angle the material is bent to. An [[https://en.wikipedia.org/wiki/Izod_impact_strength_test][Izod]] test is a similar test (which destroys the sample) that is used in industry.
+- [[http://en.wikipedia.org/wiki/Fusibility][*Fusibility*]] can be measured by heating samples until they melt, and recording the temperature at which this occurs.
+- [[https://en.wikipedia.org/wiki/Density][*Density*]] is a material's mass per unit volume, calculated as ρ = m / V. Lead, gold and tungsten are increasingly dense metals. Balsa and cork are low-density woods.
+- [[https://en.wikipedia.org/wiki/Specific_strength][*Strength to weight ratio*]] is a material's strength (force per unit area at failure) divided by its density. Another way to describe specific strength is breaking length, also known as self support length: the maximum length of a vertical column of the material (assuming a fixed cross-section) that could suspend its own weight when supported only at the top. The Wikipedia link at the start of this definition contains an interesting table showing a range of breaking lengths for different materials.
+- [[https://en.wikipedia.org/wiki/Durability][*Durability*]] is the ability of a physical product to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over its lifetime.
+- *Thermal conductivity* is the extent to which a material transmits heat or insulates from it. Asbestos is a superior (but deadly) thermal insulation material, and so used to be used to 'lag' (wrap around) heating pipes to minimise heat loss and increase efficiency. Copper, on the other hand, is a good conductor of heat and is often used to make the base of high-end saucepans. 
+- *Electrical conductivity* is the extent to which a material allows or restricts the flow of electrical current. Rubber is a well-known insulating material, whereas copper and gold are the best conductors. Given its high cost, gold is only used for high-end professional applications like audio connectors. Conductivity can be measured with a multimeter's resistance setting. 
+- *[[https://www.thebalance.com/what-is-corrosion-2339700][Corrosion]] resistance* is a measure of how quickly a material (usually metal) will break down in response to different types of corrosion. The most common type of corrosion is oxidation of iron alloys (e.g. rust forming on steel). Steps can be taken to reduce the rate of corrosion (e.g. painting or covering in grease).
+- [[https://en.wikipedia.org/wiki/Stiffness][*Stiffness*]] is the rigidity of an object — the extent to which it resists deformation in response to an applied force. This could be tested for a range of samples by placing a rod of the material on two objects a distance apart, and then incrementally applying a force in the middle. The amount each material moves after each additional weight will show which material is the stiffest. 
+- [[https://en.wikipedia.org/wiki/Elasticity_(physics)][*Elasticity*]] is the ability of a body to resist a distorting influence and to return to its original size and shape when that influence or force is removed. A rubber band has high elasticity. Concrete will hold its shape until it fails. 
+- [[https://en.wikipedia.org/wiki/Plasticity_(physics)][*Plasticity*]] is a little like elasticity, but (quoting Wikipedia), 'describes the deformation of a solid material undergoing non-reversible changes of shape in response to applied forces. For example, a solid piece of metal being bent or pounded into a new shape displays plasticity as permanent changes occur within the material itself.'
+- [[https://simple.wikipedia.org/wiki/Malleability][*Malleability*]] is substance's ability to deform under pressure (compressive stress). If malleable, a material may be flattened into thin sheets by hammering or rolling (e.g. gold, iron, aluminium).  
+- [[https://simple.wikipedia.org/wiki/Ductility][*Ductility*]] is a material's ability to be drawn into a wire by being stretched. 
+- [[https://en.wikipedia.org/wiki/Machinability][*Machinability*]] the ease with which a metal can be cut (machined) permitting the removal of the material with a satisfactory finish at low cost. Materials with good machinability require little power to cut, can be cut quickly, easily obtain a good finish, and do not wear the tooling much; such materials are said to be free machining. 
