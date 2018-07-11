@@ -7,7 +7,7 @@
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 
-#+TITLE: AS Design Engineering Theory
+#+TITLE: Design Engineering Theory
 #+AUTHOR: C. Delport
 #+OPTIONS: toc:nil f:nil author:nil num:nil creator:nil timestamp:nil 
 
