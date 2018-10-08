@@ -197,9 +197,7 @@ Having an established brand makes bringing a new product to market easier, as co
 #+BEGIN_VERSE
 Why is it important to understand technological developments in design engineering?
 
-2.2 
-
-Be able to critically evaluate how new and emerging technologies influence and inform the evolution and innovation of products and systems in both contemporary and potential future scenarios, including consideration of blue sky and incremental innovation.
+2.2. Be able to critically evaluate how new and emerging technologies influence and inform the evolution and innovation of products and systems in both contemporary and potential future scenarios, including consideration of blue sky and incremental innovation.
 Engineering is the appliance of maths and physics to solve real-world problems. By staying abreast of new developments (such as the appetite for the ‘Internet of Things’, the development of new smart materials like Quantum Tunnelling Composite, Muscle wire and Polymorph), engineers can make products that simply could not have existed a decade ago and can drive the creation of products to solve as-yet unsolved problems. 
 #+END_VERSE
 
@@ -211,21 +209,22 @@ Engineering is the appliance of maths and physics to solve real-world problems. 
 #+BEGIN_VERSE
 Why is it important to understand technological developments in design engineering?
 
-2.3 
-
-Technology is a 17th century word that refers to the application of scientific knowledge for practical purposes, but has been applied since the first humans. Developing wheel technology allowed good to be transported; agricultural technology like learning to sow and harvest crops or designing a plough to be pulled by a horse enabled groups of humans to move societally from hunters to farmers in larger communities. Steam trains allowed people to move around the World at never-before seen speeds, carrying enormous loads of cargo. 
+2.3. Technology is a 17th century word that refers to the application of scientific knowledge for practical purposes, but has been applied since the first humans. Developing wheel technology allowed good to be transported; agricultural technology like learning to sow and harvest crops or designing a plough to be pulled by a horse enabled groups of humans to move societally from hunters to farmers in larger communities. Steam trains allowed people to move around the World at never-before seen speeds, carrying enormous loads of cargo. 
 
 a. Recognise how past and present design engineers, technologies and design thinking have influenced the style and function of products from different perspectives, including:
 
 #+END_VERSE
 
 ** 2.3i Impact on Industry and Enterprise
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
 #+BEGIN_VERSE
 While one might consider any number of names, Henry Ford (Ford Motor Company) devised the assembly line method of mass production which was quickly copied the World over. While the processes have evolved and been refined, this remains the basis for mass production. His factory layouts allowed Ford to produce vehicles more quickly and cheaply and other manufacturers. Ford created the first motor car that the average person could afford and made them commonplace.
 
 George Stephenson built the first public inter-city railway line between Liverpool and Manchester in 1830, and the expanding rail network allowed for goods and raw materials to move all over the country. His rail gauge is also still used the world over as the standard measurement for rail tracks.
 
-This list has its own top 10, and is well worth looking through.
+[[https://www.thecompleteuniversityguide.co.uk/courses/top-10-greatest-engineers-of-all-time/][This list]] has its own top 10, and is well worth looking through.
 
 In terms of technologies, as you progress through the course, you’ll encounter many examples. If you have time, it may be worth researching some of these briefly, if you don’t know what they are or (broadly) how they work: Sand casting, Injection moulding, Blow moulding, Vacuum forming, Laser/Plasma Cutting, 3D printing, robotic assembly, CNC Milling / turning / routing. 
 #+END_VERSE
@@ -236,13 +235,25 @@ In terms of technologies, as you progress through the course, you’ll encounter
 #+BEGIN_VERSE
 This was discussed in section 1, but it’s worth adding that in general, products have evolved to become safer, smaller, lighter, cheaper, are more efficient, easier to use, easier to maintain, have longer serviceable lifespans and are more functional in each iteration. As an example, design engineering teams at companies such as Boeing have created incrementally better aircraft that deliver in many of these areas as they evolve new generations of airliners to carry passengers around the planet, by building on the lessons learnt from each generation of product that came before it.
 #+END_VERSE
+- In terms of lifestyle objectives, a key goal of new products for the domestic market is to provide 'labour saving devices'.
+- The 1950s saw a big surge in products which would liberate housewives from many of the repetitive, time-consuming activities that they had undertaken each day, providing more time for recreational activities such as going out, reading books or buying/using exercise equipment (good for the local economy) or generally enjoying a higher standard of living.
+- This [[https://www.youtube.com/embed/DoCCO3GKqWY][video]] (while it contains some rather dated views on gender-roles) shows Disney's vision of the future as of the 1950s. Note the extensive use of plastics!
+- If technology affords more free time to homeowners, it is generally assumed that as a result, there will be more time to spend time with friends and family and to engage in leisure activites, arts and culture. 
 ** 2.3iii Impact on the Environment 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-#+BEGIN_VERSE
+- As technology becomes more advanced, this usually results in a number of improvements in certain areas.
+  - Manufacturing the same product more quickly (e.g. Robotic production line replacing human workforce)
+  - Manufacturing it more cheaply while maintaining its quality (e.g. Only putting sandpaper on one side of a box of matches)
+  - Achieving the same functionality, but using less raw materials (and therefore reducing weight) or by using recycled plastics and metals
+  - Being able to make a product which produces the same outcome, in a smaller form-factor (e.g. Thinnest ever mobile phone)
+  - Making the product perform additional functions (sometimes called /convergence/. E.g. Mobile phone with web browser, email, GPS...)
+  - Improving the performance of the product (e.g. a Dishwasher that uses less water, a smartphone with a better camera)
+- Some of the factors above have the potential to reduce one's impact on the environment (e.g. using reclaimed metals or making the item smaller).
+- Others have a negative impact; a mass-produced product made in China that's incredibly successful will have more of the item made. Each product will need shipping from China to other countries (E.g. USA, UK) on large, oil-burning tankers, then transported on diesel-burning HGVs to shops, then transported home in petrol-burning cars.
+- Environmental impact is an increasingly prominent area of focus for big corporations, who are keen to be seen as being 'green'. Apple produce an [[https://www.apple.com/environment/pdf/Apple_Environmental_Responsibility_Report_2017.pdf][annual sustainability report]] in which they set out the work they're doing; its well worth a read to look at ideas that manufacturers can implement more generally.
 
-#+END_VERSE
 ** 2.3iv Consideration of Sustainability 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -255,14 +266,19 @@ Factories are generally large structures; before one considers the negative impa
 Beyond this, there is the ongoing environmental impact of removing raw materials such as copper from the ground, refining them and transporting them to the factory before any manufacturing begins. 
 
 Recognising that these processes are draining the planet’s finite resources, industry has increasingly aimed to recycle products when they reach their end-of-life, aiming to recover materials such as gold (found in connectors between parts), copper (from wiring) and certain plastics. Businesses also seek to bolster their green credentials by using better insulation, covering factory roofs with solar panels or fitting wind turbines to harness renewable energy from the sun or wind. Some trucks have been adapted to make use of spent cooking oil, and bio-fuels (grown in fields) are being explored to reduce dependency on oil for transport. When building products, manufacturers are increasingly looking for ways to reduce the amount and size of packaging that is used, so as to reduce the amount of raw material used as well as reducing the weight of objects and allowing more of them to be transported per truck. 
-
-b. Understand how key historical movements and figures and their methods have had an influence on future developments.
-
+#+END_VERSE
+* b. Understand how key historical movements and figures and their methods have had an influence on future developments.
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- There have been a number of different design movements that have influenced the form and function of products over the last 200 years. Some of these are:
 *Victorian (1837-1901).* Considered to be the first trend and began to develop industrial design. As the name itself indicates, the Victorian style developed in the period of the reign of Queen Victoria and included not only design but also had a big influence on the architecture. It was a period of great transformations, the second Industrial Revolution broke out, there was the development of industry, technology and inventions and a mass production was also commenced. 
 
 *Arts & Crafts (1850-1914).* This movement was founded in Great Britain in response to the mass production, having been pioneered by the industrial revolution. It was propagating a program of revival of the art and the craft. It was believed that the industrial revolution through mass production had led to the collapse of the taste, the personality and the morality of people. Arts and Craft caused that the products were made by hand, the return of handicraft. Straighter forms, large smooth surfaces and linear shapes started taking the place of products overloaded with the decorative art. Motifs were often taken from nature.
 
 *Art Nouveau (1880-1910).* Inspired by Japanese culture, this movement saw the introduction of oriental, simple forms, and whitespace as well as a new approach in the problem of perspective, free composition, asymmetry and bright colour. In contrast to Arts and Crafts, Art Nouveau began to use media technology to mass production. Representatives of this trend, having been fascinated by new technologies, began to use new materials, construction and techniques / methods. Curved lines and organic shapes, winding, non-geometrical, rough edges, asymmetry. Colours: mostly bright, delicate, such as white or lilac.
+
+*Art deco (1908 - 1935).* [[http://www.bbc.co.uk/homes/design/period_artdeco.shtml][Art deco]] is a design style from the 1920s and 1930s in furniture, decorative arts and architecture characterised by its geometric character
 
 *Modernism (1880-1940).* Saw the use of new materials such as concrete, steel, glass. Use of simple forms, devoid of decorative elements. Designs using simple mass, smooth finishes of walls and open space plan in architecture. Often austere (severe or strict) interiors, it was desirable to provide order. Modular, simple furniture, using toned down, natural colours.
 
@@ -274,24 +290,23 @@ b. Understand how key historical movements and figures and their methods have ha
 
 Source: https://www.slideshare.net/markrotondella/key-movements-in-design
 
-Activity: Look online for examples of products and buildings that are typical of the above design styles. This is not an exhaustive list of design movements. The link above identifies several others which may be of use. 
+*Activity:* Look online for examples of products and buildings that are typical of the above design styles. This is not an exhaustive list of design movements. The link above identifies several others which may be of use. 
 
-#+END_VERSE
 
 * Examining Lifecycles of Products
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-#+BEGIN_VERSE
-What can be learnt by examining lifecycles of products?
-
-2.4 
-
-Demonstrate an understanding of a product’s marketing lifecycle, from initial launch to decline in popularity, including:
-#+END_VERSE
-
+** What can be learnt by examining lifecycles of products?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- 2.4 Demonstrate an understanding of a product’s marketing lifecycle, from initial launch to decline in popularity, including:
 ** 2.4i Initial Demand, Growth in Popularity and Decline over time
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
 #+BEGIN_VERSE
 Upon introduction to the market, sales will be slow as companies seek to establish the product in the marketplace and build a market. 
 
@@ -307,18 +322,11 @@ Sales will eventually enter their decline period. At this point, manufacturers c
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-#+BEGIN_VERSE
-Methods used to create more demand and maintain a longer product popularity
-
-As mentioned above, there are a number of options.
-
-Case Study: The Xbox 360 console was heavily marketed pre-launch in 2005, allowing it to enjoy a rapid growth phase. The console was re-released in a cheaper facelift model in 2010, as well as the launch of the ‘Kinect’ add-on to help drive sales. The new Xbox One was launched in 2013 as the Xbox 360 entered its decline before it being discontinued in early 2016. 
-#+END_VERSE
+- Methods used to create more demand and maintain a longer product popularity
+- As mentioned above, there are a number of options.
+- Case Study: The Xbox 360 console was heavily marketed pre-launch in 2005, allowing it to enjoy a rapid growth phase. The console was re-released in a cheaper facelift model in 2010, as well as the launch of the ‘Kinect’ add-on to help drive sales. The new Xbox One was launched in 2013 as the Xbox 360 entered its decline before it being discontinued in early 2016. 
 ** 2.4iii New Models of Marketing and Influence of Social Media 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-#+BEGIN_VERSE
-Discussed previously; web banner adverts, email newsletters and posts on Social Media can be used. 
-#+END_VERSE
-
+- Discussed previously; web banner adverts, email newsletters and posts on Social Media can be used. 
