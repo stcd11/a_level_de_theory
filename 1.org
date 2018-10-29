@@ -280,10 +280,52 @@ To design a product with ergonomics in mind, anthropometric data is used. This c
 #+BEGIN_VERSE
 This was touched on previously, but for a domestic or office product, if the item is physically attractive and stylistically in-keeping with current trends, a premium price can be charged. A good example of this is an electric kettle; these consist of a heating element, a temperature sensor and a switch. While incremental improvements have appeared such as better heating elements, the circuit inside is largely unchanged since the original 1891 design. Nonetheless, consumers have the ability to spend £6 on a kettle, or over £200. Both achieve the same outcome and share the same fundamental parts, but they look cosmetically different. It is worth remembering that while the profit margin is considerably greater for a ‘designer’ kettle, far fewer are sold. It is entirely possible that the manufacturer selling vastly greater number of their product for a lower profit would actually operate a more profitable overall business – this principal can be seen when comparing supermarkets like Aldi and Waitrose. 
 
-b. Demonstrate an understanding of the ergonomic factors that may need considering when developing engineered products, including:
-i. anthropometric data to help de ne design parameters associated with the human body
-ii. user comfort, layout of controls, so ware user-interface.
 #+END_VERSE
+** 1.3bi Anthropometric data to help define design parameters 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+BEGIN_VERSE
+Anthropometric Data Explained. Of course not all people are the same size. There will be huge differences between the heights, weights, and other dimensions due to: gender, age, diet, growth rate, genetic make up and other factors. Therefore the Anthropometric data needs to be organised in a specific way.
+
+Anthropometric data to help the design parameters associated with the human body.
+#+END_VERSE
+[[./img/anthropo_data.jpg]]
+- The table above could be used when designing a grip for a power tool, or when designing a keyboard.
+- It is important to know the dimensions of a hand.
+** 1.3bii User comfort, control layout and software user-interface 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+#+BEGIN_VERSE
+The user experience is the core of the design process. 
+
+Designers should put themselves in the shoe of the end consumer in order to achieve empathic design. 
+
+In order to achieve success in the highly competitive market, the innovation should walk side by side with the deep understanding of the consumer interaction with both the physical and digital aspects of the products. 
+
+This understanding should be achieved through the understanding of the user ergonomics and apply the principles of ergonomics in the design process.
+
+Ergonomics refer to designing products, services, systems and processes with social interaction in mind. 
+
+The principles of ergonomics ensures that the design complement the consumer ability strengths for and strives to minimize the effort and limitations while using the product rather than forcing them to adapt. 
+
+Ergonomics is widely implemented in different industries effecting the creative sector. Many designers believe ergonomics is only considered in product design. However, designers in different fields such as graphic and interactive design are required to consider ergonomics in their design projects. For example, the interactive designers should consider the user experience research as an essential stage in designing mobile applications, websites, and user interfaces.
+#+END_VERSE
+*Principles of Ergonomics* -
+In order to consider the ergonomics involved in different design projects, universal principles of ergonomics can be applied. While the principles below may not be applicable in some projects, the concepts can be adapted to both physical and digital projects.
+
+- 1. *Neutral postures* - The neutral posture refers to the human body aligned and balanced. The standard and balanced posture reduces the stress applied on muscles, tendons, nerves, and bones. The unbalanced posture for the human body is known as an “awkward posture”.
+- 2. *Reduce Excessive force* - The design for heavy products should consider reducing the excessive force needed or used to pull, push, or carry the product. Alternative solutions should be adapted to reduce the use of force such as using wheels to these products.
+- 3. *Keep Things Easy to Reach* - This principle is widely applied in both the physical and digital domains. The interaction with a specific product should be made easy. Consumers should reach the product easily and interact with it. For example, the control panel for dish washers should be reachable with the minimum amount of effort and time. In digital designs such as website and mobile application, users should be able to reach functions and navigation links easily through the usable implementation of the layout.
+- 4. *Work in Power or Comfort Zone* - The power zone refers to the zone where interacting with objects has the least amount of effort spent, it is also known as “hand shake zone”. It is the area between mi-thigh and mid-chest height. If the product is designed to be held, the designer should consider this position as the standard.
+- 5. *Reduce Excessive motion* - This principle aims to reduce the amount of motion spent while dealing with the design. The motion refers to any movement applied using the figures, wrist, or other parts of the body. One of the examples of applying this principle is the usage of screwdriver. The electric screwdriver is designed to reduce hand motion during usage.
+- 6. *Reduce Static Load* - Static load refers to the position where the person stays in the same position or holds something for a long time. This load create discomfort fatigue. If the product requires the consumer to stand still for a long time such as holding a specific tool, a fixture solution needs to be applied in order to eliminate the need to hold the object.
+- 7. *Minimise Pressure Points* - The pressure point refers to the point where the object is in contact with the consumer body during the usage of the product. For example, high chairs makes a pressure point between the user legs and table or desk. Therefore, designing the chair should allow users to modify the height and subsequently it can be used with any table height.
+- 8. *Provide Clearance* - The design for products and interior should provide a space for the user to move freely and avoid dumping into any of the objects. The same concept is applied in the digital domain. Placing the functions and elements in the website design or mobile application device should allow the user to move between the function smoothly and avoid any confusion such as clicking on wrong buttons.
+- 9. *Enable Movement and Stretching* - The product design should consider the user needs to move, exercise, and stretch. For example, seat design includes options to adjust the setting style. Tables that forces one to stand up or be in in one place may be modified in some places to avoid the a long setting time.
+- 10. *Reduce Excessive Vibration* - Vibration has a serious impact on consumer health. Contacting vibrating tools may cause hand-arm vibration syndrome (HAVS). Therefore, designing products that use motors or vibrate while holding should consider this principle. For example, the motor part can be separated from the tool itself and connected to it using a cord instead. This reduces the vibration on the tool.
+- 11. *Provide Good Lighting Conditions* - The overall work environment should be comfortable and allow users or designers to have good lighting, fresh air, and enough space. In offices where computer screens are installed, the design of the light systems should avoid reflections caused by the polished computer screens.
 * Practice questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
