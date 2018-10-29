@@ -189,6 +189,19 @@ Discussed previously.
 Having an established brand makes bringing a new product to market easier, as consumers know to monitor your company’s web site/catalogue for new items. Equally, client expectations will increase with every new product launch, as consumers want the new product to be faster, cheaper, more accurate and more visually appealing. Both new companies and established ones will typically invest heavily in marketing campaigns. After all, there’s no point developing a new, better battery if no-one knows that they can buy it. TV, radio, billboard, web pages and social media can all be utilised as marketing strategies by companies to help facilitate sales. Marketing a product can be a highly costly exercise, and to have a lasting impact requires substantial sustained investment. Everyone knows what Coca-Cola is, for instance, but Coke continue to spend billions of pounds a year advertising it on TV, Movie placement, billboards, Social Media, radio and web advertising to ensure it maintains its high profile so that people will keep buying Coca-Cola. 
 #+END_VERSE
 
+** 2axi The considerations of how to get a product to market 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- 1. *Define Your Target Audience* - Understand your target audience. This is critical because the language, channels and information you use to communicate with and appeal to one demographic may not be as effective with another. 
+- 2. *Know How to Reach Your Audience* - Understand the target audience and how to reach them effectively, both with the ad and mentally. Get in the mind of your target audience and understand where the best place to reach them is and how they will interpret your ad. Then cater your marketing plan accordingly.
+- 3. *Know the Problem You Are Solving* - Having a deep understanding of the challenge it's solving and who it is for is crucial. It's surprising how often this is not thoroughly thought through. Always stay focused on your "who" and "why." Test it with your personas, talk to them about it, and know it is something that will fulfill an unmet need first. 
+- 4. *Understand the Buying Journey* - The buying process forms the foundation of all marketing and sales activities. You need to have an intimate understanding the buyer's pain points, where they get their information and who influences the purchase. Specific events may even trigger a purchase.
+- 5. *Secure Your Online Identity* - In today's world, we have seen numerous cybersquatters try to take advantage of clients who did not secure their domain name, trademark, social media accounts, etc. It is critical to secure all these before launching anywhere.
+- 6. *Validate Your Product* - Make a sale and earn your first dollar as validation to build the product or service – even before it's built. If people won't buy the product or service based on a pitch, they probably won't buy the product or service when it exists.
+- 7. *Know Your Competition and be Different* - We see many "Me Too" brands popping up that want to ride the trend wave and cash in on others fast-growing successes. Instead of following this knee-jerk reaction, look to what makes you different. Figure out your brand differentiators and in some cases recalibrate to fill the void, not follow the trend.
+- 8. *Make Sure it Hasn't Been Done Before* - Seems like an elemental principle in theory but I am always surprised to see people seeking our help to pursue a "great idea" that has been done before. Research the market for products and services that may be similar to what you're offering.
+
 * Understanding Technological Developments
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
