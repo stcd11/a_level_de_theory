@@ -89,7 +89,7 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: intro
 :END:
-* Factors that influence the selection of materials that are used in engineered products
+* 5.1 Factors that influence the selection of materials that are used in engineered products
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -117,44 +117,11 @@ e* Introduction
     - Nylon is often selected to make small gears with as it is self-lubricating
     - Balsa is the least dense hardwood, and so is commonly selected for making light-weight models
     - Because its made with sawdust and urea formaldehyde, MDF is usually very flat and consistent throughout the material (wood will have a grain and 'knots' in it, making it harder to cut)
-* Materials and components that should be selected when designing and manufacturing products and prototypes.
+* 5.2 Materials and components that should be selected when designing and manufacturing products and prototypes.
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Materials and components that should be selected when designing and manufacturing products and prototypes.
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- A systems engineer needs to know something about all aspects of Technology in order to produce the best work. One aspect of this is knowing what’s available when selecting materials to fabricate products with. For both the exam and your coursework, you will require a general understanding of the following groupings of materials. Links to external sites have been included throughout; it is strongly recommended that you read up on exa
-** Metals
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- *Ferrous* metals are those that contain [[http://en.wikipedia.org/wiki/Iron][iron]]. Steel, for example. All ferrous metals will rust over time, due to their iron content. All metals change their properties, dependent on how they are heated and cooled.
-- [[http://en.wikipedia.org/wiki/Non-ferrous_metal][*Non-ferrous*]] metals are those which do not contain iron, such as brass.
-    - A good conductor of electricity and heat, [[http://en.wikipedia.org/wiki/Aluminium][aluminum]] is a light-weight metal, used in aircraft construction, for power cables, drinks cans and in cookware.  
-    - [[http://en.wikipedia.org/wiki/Titanium][Titanium]] is a very strong metal, used in making the strongest and lightest parts of modern fighter jet planes, as well as in high-performance sports equipment, medical implants and jewelry. It does not corrode, and has good resistance to sea water and chlorine.
-- [[http://en.wikipedia.org/wiki/Alloy][*Alloys*]] are a mixture of two or more elements, one of which is a metal.  They have properties different to those of the metals they are composed of. A few common examples are:
-    - [[http://en.wikipedia.org/wiki/Brass][Brass]]. Made since biblical times from copper and zinc, brass is used in low-friction applications (e.g. gears and locks), and has a golden colour. It is also used in musical instruments as it has pleasant acoustic properties. 
-    - [[http://en.wikipedia.org/wiki/Bronze][Bronze]]. Made from copper and tin, this was the first alloy to be discovered. Bronze is used when it is desirable for parts to be able to last a long time, and not be corroded by air or water. 
-    - Different [[http://en.wikipedia.org/wiki/Steel][steel]]s are made by adding carbon to iron (0.02%-1.7% carbon). Steel is harder and stronger than iron alone; adding additional carbon results in harder and stronger steel, at the expense of it becoming increasingly brittle. It is used for car bodies, bridge construction, buildings and tools.  
-    - Stainless steel is made with the addition of around 11% chromium, which adds an increased resistance to staining and rusting compared to regular steel. It is used for surgical instruments, sinks and cutlery.
-** Plastics
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Polymers (and the discovery of plastics) revolutionized the 20th century, giving rise to the mass production of strong, cheaply produced products for the masses. The environmental cost was only considered in the latter half of the 20th century, when the impact of oil-based products which took hundreds of years to break down in landfill sites started to be realized. 
-- A [[http://en.wikipedia.org/wiki/Thermoplastic][*thermoplastic*]] is one that becomes soft when heated and hard when cooled. 
-- [[http://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene][ABS]] (Acrylonitrile butadiene styrene) is highly impact resistant and tough. Commonly used for musical instruments, golf clubs, car trim components, car bumpers, medical devices for blood access, protective headgear, whitewater canoes and Lego bricks.
-- [[http://en.wikipedia.org/wiki/Poly(methyl_methacrylate)][Acrylic]] (Polymethyl methacrylate) is stiff, hard (but scratches easily), durable, brittle in small sections, a good electrical insulator, which machines and polishes well. It is used for many applications, such as making signs, covers of storage boxes, aircraft canopies and windows, covers for car lights, wash basins and baths.
-- [[http://en.wikipedia.org/wiki/Nylon][Nylon]] (Polyamide) is creamy in colour, tough, fairly hard, resists wear, self-lubricating and has good resistance to chemicals. Commonly used to produce bearings, gear wheels, casings for power tools, hinges for small cupboards, curtain rail fittings and clothing. 
-- [[http://en.wikipedia.org/wiki/Polystyrene#Copolymers][HIPS]] (High Impact Polystyrene) is economical and impact-resistant plastic that is easy to machine and fabricate. Used for low strength structural applications when impact resistance, machinability, and low cost are required. It is frequently used machining pre-production prototypes since it has excellent dimensional stability and is easy to fabricate, paint, and glue.
-- A [[http://en.wikipedia.org/wiki/Thermosetting_polymer][*thermosetting plastic*]] (also known in industry as thermoset) is a plastic which irreversibly cures. They typically start off in a liquid form (so they can be molded into shape), and are then cured by a process such as heat, chemical reaction or irradiation to set them.
-- [[http://en.wikipedia.org/wiki/Urea-formaldehyde][Urea formaldehyde]] provides high tensile strength, good surface hardness and heat resistance as well as being a good electrical insulator. It is used for electrical fittings, handles and control knobs and to make adhesives. Its is also used as the bonding agent in.
-- [[http://en.wikipedia.org/wiki/Melamine_resin][Melamine formaldehyde]] is stiff, hard, strong and resists some chemicals and stains. It is commonly used in laminates for work surfaces, electrical insulation and tableware. 
-- [[http://en.wikipedia.org/wiki/Epoxy][Epoxy resin]] is a good electrical insulator, which is hard, brittle unless reinforced and resists chemicals well. It is used mainly for casting and encapsulation, adhesives and for the bonding of other materials.
-- Polyester resin works as an adhesive (less strong than epoxy) and is commonly used for boat hull repairs (when combined with fibreglass cloth) and can be used for casting. It has a strong, unpleasant smell, which many find off-putting.
-- [[https://en.wikipedia.org/wiki/Polyimide][Polyimides]] are strong synthetic polymers that are also astoundingly heat and chemical resistant. Their properties are so great that these materials often replace glass and steel in many demanding industrial applications. They are used for the struts and chassis in some cars as well as some parts under-the-hood because they can withstand the intense heat and corrosive lubricants, fuels, and coolants cars require. Polyimides are also self-extinguishing; if they catch fire, they quickly char and then put themselves out. An example is kaptan tape, which we use on the bed o the 3D printer to encourage the first layer of the model to bond to the machine bed.
+- A systems engineer needs to know something about all aspects of Technology in order to produce the best work. One aspect of this is knowing what’s available when selecting materials to fabricate products with. For both the exam and your coursework, you will require a general understanding of the following groupings of materials. Links to external sites have been included throughout; it is strongly recommended that you read up on examples.
 ** Woods
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -182,6 +149,42 @@ e* Introduction
 - [[http://en.wikipedia.org/wiki/Plywood][*Plywood*]] is made from veneers (thin plies) of timber with each grain layer being at right angles to each other and bonded together by resin and pressure. A number of grades are available, designed to suit a variety of situations, such as Marine plywood that is moisture resistant (although it will still warp) or weatherproof plywood. Ply is the only board that uses layers of pure wood. If the grains are laid parallel with each other it becomes flexible along the grain; if laid at right angles it becomes more rigid. 
 
 - All boards come in standard thicknesses of 3, 6, 9, 12, 15, 18 & 25mm.
+** Metals
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+  - [[https://en.wikipedia.org/wiki/Ferrous][*Ferrous*]] metals are those that contain [[http://en.wikipedia.org/wiki/Iron][iron]]. Steel, for example. All ferrous metals will rust over time, due to their iron content. All metals change their properties, dependent on how they are heated and cooled.
+  - [[http://en.wikipedia.org/wiki/Non-ferrous_metal][*Non-ferrous*]] metals are those which do not contain iron, such as brass.
+    - A good conductor of electricity and heat, [[http://en.wikipedia.org/wiki/Aluminium][aluminum]] is a light-weight metal, used in aircraft construction, for power cables, drinks cans and in cookware.  
+    - [[http://en.wikipedia.org/wiki/Titanium][Titanium]] is a very strong metal, used in making the strongest and lightest parts of modern fighter jet planes, as well as in high-performance sports equipment, medical implants and jewelry. It does not corrode, and has good resistance to sea water and chlorine.
+
+** Metals Alloys
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+    - [[http://en.wikipedia.org/wiki/Brass][Brass]]. Made since biblical times from copper and zinc, brass is used in low-friction applications (e.g. gears and locks), and has a golden colour. It is also used in musical instruments as it has pleasant acoustic properties. 
+    - [[http://en.wikipedia.org/wiki/Bronze][Bronze]]. Made from copper and tin, this was the first alloy to be discovered. Bronze is used when it is desirable for parts to be able to last a long time, and not be corroded by air or water. 
+    - [[https://en.wikipedia.org/wiki/Tungsten][Tungsten]]. In its raw form, tungsten is a hard steel-grey metal that is often brittle and hard to work. If made very pure, tungsten retains its hardness (which exceeds that of many steels), and becomes malleable enough that it can be worked easily.
+    - [[https://en.wikipedia.org/wiki/Steel][Steel]] is an alloy of iron and carbon and other elements. Because of its high tensile strength and low cost, it is a major component used in buildings, infrastructure, tools, ships, automobiles, machines, appliances, and weapons.    
+    - Different [[http://en.wikipedia.org/wiki/Steel][steel]]s are made by adding carbon to iron (0.02%-1.7% carbon). Steel is harder and stronger than iron alone; adding additional carbon results in harder and stronger steel, at the expense of it becoming increasingly brittle. It is used for car bodies, bridge construction, buildings and tools.  
+    - Stainless steel is made with the addition of around 11% chromium, which adds an increased resistance to staining and rusting compared to regular steel. It is used for surgical instruments, sinks and cutlery.
+** Plastics
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Polymers (and the discovery of plastics) revolutionized the 20th century, giving rise to the mass production of strong, cheaply produced products for the masses. The environmental cost was only considered in the latter half of the 20th century, when the impact of oil-based products which took hundreds of years to break down in landfill sites started to be realized. 
+- A [[http://en.wikipedia.org/wiki/Thermoplastic][*thermoplastic*]] is one that becomes soft when heated and hard when cooled. 
+- [[http://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene][ABS]] (Acrylonitrile butadiene styrene) is highly impact resistant and tough. Commonly used for musical instruments, golf clubs, car trim components, car bumpers, medical devices for blood access, protective headgear, whitewater canoes and Lego bricks.
+- [[http://en.wikipedia.org/wiki/Poly(methyl_methacrylate)][Acrylic]] (Polymethyl methacrylate) is stiff, hard (but scratches easily), durable, brittle in small sections, a good electrical insulator, which machines and polishes well. It is used for many applications, such as making signs, covers of storage boxes, aircraft canopies and windows, covers for car lights, wash basins and baths.
+- [[http://en.wikipedia.org/wiki/Nylon][Nylon]] (Polyamide) is creamy in colour, tough, fairly hard, resists wear, self-lubricating and has good resistance to chemicals. Commonly used to produce bearings, gear wheels, casings for power tools, hinges for small cupboards, curtain rail fittings and clothing. 
+- [[http://en.wikipedia.org/wiki/Polystyrene#Copolymers][HIPS]] (High Impact Polystyrene) is economical and impact-resistant plastic that is easy to machine and fabricate. Used for low strength structural applications when impact resistance, machinability, and low cost are required. It is frequently used machining pre-production prototypes since it has excellent dimensional stability and is easy to fabricate, paint, and glue.
+- A [[http://en.wikipedia.org/wiki/Thermosetting_polymer][*thermosetting plastic*]] (also known in industry as thermoset) is a plastic which irreversibly cures. They typically start off in a liquid form (so they can be molded into shape), and are then cured by a process such as heat, chemical reaction or irradiation to set them.
+- [[http://en.wikipedia.org/wiki/Urea-formaldehyde][Urea formaldehyde]] provides high tensile strength, good surface hardness and heat resistance as well as being a good electrical insulator. It is used for electrical fittings, handles and control knobs and to make adhesives. Its is also used as the bonding agent in.
+- [[http://en.wikipedia.org/wiki/Melamine_resin][Melamine formaldehyde]] is stiff, hard, strong and resists some chemicals and stains. It is commonly used in laminates for work surfaces, electrical insulation and tableware. 
+- [[http://en.wikipedia.org/wiki/Epoxy][Epoxy resin]] is a good electrical insulator, which is hard, brittle unless reinforced and resists chemicals well. It is used mainly for casting and encapsulation, adhesives and for the bonding of other materials.
+- Polyester resin works as an adhesive (less strong than epoxy) and is commonly used for boat hull repairs (when combined with fibreglass cloth) and can be used for casting. It has a strong, unpleasant smell, which many find off-putting.
+- [[https://en.wikipedia.org/wiki/Polyimide][Polyimides]] are strong synthetic polymers that are also astoundingly heat and chemical resistant. Their properties are so great that these materials often replace glass and steel in many demanding industrial applications. They are used for the struts and chassis in some cars as well as some parts under-the-hood because they can withstand the intense heat and corrosive lubricants, fuels, and coolants cars require. Polyimides are also self-extinguishing; if they catch fire, they quickly char and then put themselves out. An example is kaptan tape, which we use on the bed o the 3D printer to encourage the first layer of the model to bond to the machine bed.
+
 ** Textiles
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -218,7 +221,11 @@ e* Introduction
   + [[https://en.wikipedia.org/wiki/Superalloy][High performance / super-alloys]] have highly specialised properties, and are used extenstively in marine applications or for jet-propulsion. 
   + Graphene is a (form) of carbon consisting of a single layer of carbon atoms arranged in a hexagonal lattice. While not widely used yet, it could have various material/device applications, including solar cells, LEDs, touch panels and smart windows or phones.
   + Carbon nanotubes are carbon molecules organised in a cylindrical structure. They have unique Mechanical, electrical, optical and thermal properties. They are not used extensively at the moment, but a number of potential applications have been identified (click [[https://en.wikipedia.org/wiki/Carbon_nanotube#Current][here]] for list)
-** Comparative Testing 
+* 5.3 Considering the properties/characterisitocs of materials when designing and manufacturing products
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** 5.3a Suitability of materials based on the folowing properties 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
@@ -240,3 +247,11 @@ e* Introduction
 - [[https://simple.wikipedia.org/wiki/Malleability][*Malleability*]] is substance's ability to deform under pressure (compressive stress). If malleable, a material may be flattened into thin sheets by hammering or rolling (e.g. gold, iron, aluminium).  
 - [[https://simple.wikipedia.org/wiki/Ductility][*Ductility*]] is a material's ability to be drawn into a wire by being stretched. 
 - [[https://en.wikipedia.org/wiki/Machinability][*Machinability*]] the ease with which a metal can be cut (machined) permitting the removal of the material with a satisfactory finish at low cost. Materials with good machinability require little power to cut, can be cut quickly, easily obtain a good finish, and do not wear the tooling much; such materials are said to be free machining. 
+** 5.3a Costs and properties of materials 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+ - Stakeholder and user requirements - the designed product must satisfy stakeholders and users.
+ - Raw materials to be used - You need to consider the raw materials to be used, their availability and the forms and quantities in which they are supplied.
+ - Production facilities - you must ensure that you have the correct tools, equipment and all necessary facilities to produce your product.
+ - Cost and commercial availability - cost is one of the main factors which will influence the design of a product.
