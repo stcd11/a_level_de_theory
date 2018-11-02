@@ -163,6 +163,16 @@ A brief description of the business to assess more possible factors which could 
 At this level, the concern is whether the proposal is both technically feasible (assuming moderate cost).
 
 The technical feasibility assessment is focused on gaining an understanding of the present technical resources of the organization and their applicability to the expected needs of the proposed system. It is an evaluation of the hardware and software and how it meets the need of the proposed system.
+
+8.1d Understanding the relevant standards that need to be met and how to ensure these are delivered.
+
+*i.* British Standards Institute (BSI).
+
+Click [[https://www.standardsuk.com/download-british-standards/?gclid%3DCjwKCAjw6-_eBRBXEiwA-5zHab9d72qQuSkanYORP993HYQws14lhyPBjqaUZrupkivuHxnAhNP9zxoCfeEQAvD_BwE][here]] to go to the BSI webpage.
+
+*ii.* International Organisation for Standardisation (ISO) specific to the subject.
+
+Click [[https://www.iso.org/home.html][here]] to go to the ISO website.
 #+END_VERSE
 
 * Assess whether the design solution meets the criteria of the technical specification
@@ -197,6 +207,47 @@ The term performance engineering encompasses more than just the software and sup
 
 Performance engineering has become a separate discipline at a number of large corporations, with tasking separate but parallel to systems engineering. It is pervasive, involving people from multiple organizational units; but predominantly within the information technology organization.
 
+8.2b Recognise how physical testing systems are integrated into the manufacturing process to test functionality.
+
+*i.* Destructive and non destructive testing.
+
+In [[https://en.wikipedia.org/wiki/Destructive_testing][destructive testing ]] (or destructive physical analysis, DPA) tests are carried out to the specimen's failure, in order to understand a specimen's performance or material behaviour under different loads.
+
+[[https://en.wikipedia.org/wiki/Nondestructive_testing][Non-destructive testing]] (NDT) is a wide group of analysis techniques used in science and technology industry to evaluate the properties of a material, component or system without causing damage.
+
+*ii.* Testing materials durability.
+
+It is generally considered a subset of reliability testing. Durability Testing is a Performance testing technique used to determine the characteristics of a system under various load conditions *over time*. This testing helps us to identify the stability of transaction response times over the duration of the test.
+
+*iii.* Testing models and prototypes for performance and fitness purposes.
+
+Model-based testing is an application of model-based design for designing and optionally also executing artifacts to perform software testing or system testing. Models can be used to represent the desired behavior of a system under test (SUT), or to represent testing strategies and a test environment.
+
+*iv.* Testing products in use through different methods.
+
+- Consumer testing is testing or comparative testing, is a process of measuring the properties or performance of products. The theory is that since the advent of mass production manufacturers produce branded products which they assert and advertise to be identical within some technical standard.
+
+- Virtual testing is a process in which your product is tested on various characteristics, such as drop resistance, failure behaviour or deformations. Numerical models are used to verify the performance of the product.
+
+
 #+END_VERSE
 
 
+* How do design engineers and manufacturers determine whether design solutions are commercially viable?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+#+BEGIN_VERSE
+8.3a Assess design solutions viability.
+
+- The design solutions impact on user lifestyles.
+- How well the product performs.
+- Technical difficulty of manufacture.
+- Stock availability of materials and components.
+- Costs and profit.
+- Timescales involved.
+- Promotion, brand awareness and advertising potential.
+- Balancing supply and demand.
+- Market analysis of similar products. 
+#+END_VERSE

@@ -289,8 +289,47 @@ Below is a video explaining what reflow soldering is. Below that video is one ex
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zw53kxy7yL0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 #+END_HTML
 #+BEGIN_VERSE
+*ii.* CNC manufacturing such as laser/plasma cutting, milling, turning and routing.
 
-7.3c The methods used for manufacturing at different scales of production, including:
+- Watch the videos below to see the above CNC machines in action.
+- CNC plasma cutting (the same as laser cutting)
+
+#+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sKLdrHo2RWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
+- CNC milling machine.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HjRdoBrq42A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
+- CNC turning machine.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mpvc8-apEv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
+- CNC routing machine.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/txCMvRF4Bm8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
+#+BEGIN_VERSE
+
+7.3c Demonstrate an understanding of the benefits and flexibility of using computer-controlled machinery.
+
+*i.* Automated material handling systems.
+
+Automated Materials Handling. Automated materials handling (AMH) refers to any automation that reduces or eliminates the need for humans to check-in, check-out, sort material, or to move totes and bins containing library material.
+
+*ii.* Robot arms to stack, assemble, join and paint parts.
+
+- Click [[https://www.youtube.com/watch?v%3DgUWCljX7oa0][here]] to watch a video of a robot being used to paint a car.
+- Click [[https://www.youtube.com/watch?v%3DLVtBjFUfFLE][here]] to watch a video of a robotic assembly line.
+
+7.3d Understand the necessity for manufacturers to optimise the use of materials and production processes.
+
+*i.* Economical cutting and costing.
+
+*ii.* Working to a budget through efficient manufacture.
+
+7.4a The methods used for manufacturing at different scales of production, including:
 
 *i.* one-off, bespoke production.
 
@@ -309,6 +348,47 @@ Mass production is the manufacture of large quantities of standardized products,
 Lean manufacturing or lean production, often simply "lean", is a systematic method for waste minimization ("Muda") within a manufacturing system without sacrificing productivity. Lean also takes into account waste created through overburden ("Muri") and waste created through unevenness in work loads ("Mura"). Working from the perspective of the client who consumes a product or service, "value" is any action or process that a customer would be willing to pay for.
 
 Just-in-time (JIT) manufacturing, also known as just-in-time production or the Toyota Production System (TPS), is a methodology aimed primarily at reducing flow times within production system as well as response times from suppliers and to customers. Its origin and development was in Japan, largely in the 1960s and 1970s and particularly at Toyota.
+
+*v.* Fully automated manufacture.
+
+Lights out (manufacturing) Lights out or lights-out manufacturing is a manufacturing methodology (or philosophy), rather than a specific process. Factories that run lights out are fully automated and require no human presence on-site.
+Click [[https://en.wikipedia.org/wiki/Lights_out_(manufacturing)][here]] to read more about lights out manufacturing.
+
+7.4b Understanding how ICT and digital technologies are changing modern manufacturing.
+
+*i.* Customised manufacture systems
+
+In the custom manufacturing system, each item is produced by a single craftsperson, who works solely by hand or with the help of a machine. ... As a result, custom-manufactured products are of the highest quality but are also the most expensive products in the market.
+
+*ii.* Rapid prototyping.
+
+Rapid prototyping is a group of techniques used to quickly fabricate a scale model of a physical part or assembly using three-dimensional computer aided design (CAD) data. Construction of the part or assembly is usually done using 3D printing or "additive layer manufacturing" technology.
+
+*iii.* Additive and digital manufacture methods.
+
+Additive Manufacturing refers to a process by which digital 3D design data is used to build up a component in layers by depositing material. The term "3D printing" is increasingly used as a synonym for Additive Manufacturing. However, the latter is more accurate in that it describes a professional production technique which is clearly distinguished from conventional methods of material removal. Instead of milling a workpiece from solid block, for example, Additive Manufacturing builds up components layer by layer using materials which are available in fine powder form. A range of different metals, plastics and composite materials may be used.
+
+*iv.* Stock control, monitoring logistics in industry.
+
+Stock control, monitoring logistics is the fact or process of ensuring that appropriate amounts of stock are maintained by a business, so as to be able to meet customer demand without delay while keeping the costs associated with holding stock to a minimum.
+
+7.5a Understading the process that needs to be undertaken to ensure products meet legal requirements and are high quality.
+
+*i.* Quality control.
+
+A system of maintaining standards in manufactured products by testing a sample of the output against the specification.
+
+*ii.* Quality assurance.
+
+The maintenance of a desired level of quality in a service or product, especially by means of attention to every stage of the process of delivery or production.
+
+*iii.* 'Total Quality management' (TQM)
+
+A system of management based on the principle that every member of staff must be committed to maintaining high standards of work in every aspect of a company's operations.
+
+*iv.* European and British standards.
+
+It comprises a set of questions and answers that summarizes the role of standards in the European Single Market. The information in this document has been prepared by BSI (British Standards Institution), which is appointed by the UK Government (HMG) to act as the UK National Standards Body (NSB).
 
 #+END_VERSE
 
