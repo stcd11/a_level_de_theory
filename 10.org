@@ -131,3 +131,30 @@ These can be in the form of photographs or explanations, but you will need to do
 #+END_VERSE
 
 
+* Implications of health and safety legislation on product manufacture
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+#+BEGIN_VERSE
+9.2a Demonstrate an understanding of how the regulatory and legislative framework in the health and safety at work act (HASAW) sets out duties of employers and employees in the product manufacturing industries.including:
+
+*i.* Control of Substances Hazardous to Health (COSHH).
+
+COSHH stands for 'Control of Substances Hazardous to Health' and under the Control of Substances Hazardous to Health Regulations 2002, employers need to either prevent or reduce their workers' exposure to substances that are hazardous to their health.
+[[./img/COSHH.jpg]]
+Click [[http://www.hse.gov.uk/coshh/][here]] to go to the health and safety executive (HSE) website to read more about COSHH.
+
+*ii.* Personal Protective Equipment at work regulations (PPE).
+
+PPE is equipment that will protect the user against health or safety risks at work. It can include items such as safety helmets, gloves, eye protection, high-visibility clothing, safety footwear and safety harnesses
+
+Click [[http://www.hse.gov.uk/toolbox/ppe.htm][here]] to go to the HSE website to read more on PPE. 
+[[./img/PPE.png]]
+9.2b The responsibility of manufacturers to appropriately label products and offer guarentees to their consumers to deliver the correct levels of product assurance related to safety.
+
+Product labeling is covered under the Trade Description Act. Labels must include accurate information to ensure that products can be used safely and correctly.
+
+[[https://en.wikipedia.org/wiki/Trade_Descriptions_Act_1968][Trade Description Act]]
+#+END_VERSE
+
