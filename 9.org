@@ -232,7 +232,6 @@ Model-based testing is an application of model-based design for designing and op
 
 #+END_VERSE
 
-
 * How do design engineers and manufacturers determine whether design solutions are commercially viable?
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity

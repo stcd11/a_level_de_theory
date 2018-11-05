@@ -130,7 +130,6 @@ These can be in the form of photographs or explanations, but you will need to do
 
 #+END_VERSE
 
-
 * Implications of health and safety legislation on product manufacture
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -151,6 +150,21 @@ PPE is equipment that will protect the user against health or safety risks at wo
 
 Click [[http://www.hse.gov.uk/toolbox/ppe.htm][here]] to go to the HSE website to read more on PPE. 
 [[./img/PPE.png]]
+
+*iii.* Ensuring machinery is well maintained.
+
+In order to ensure work equipment does not deteriorate to the extent that it may put people at risk, employers, the relevant self-employed and others in control of work equipment are required by PUWER to keep it 'maintained in an efficient state, in efficient order and in good repair'. If the manufacturer is self-employed and their work poses no risk to the health and safety of others, then health and safety law may not apply to them.  HSE has guidance to help manufacturers understand if the law applies. Such effective maintenance can not only help in meeting PUWER requirements but can also serve other business objectives, such as improved productivity and reduced environmental impact.
+
+The frequency and nature of maintenance should be determined through risk assessment, taking full account of:
+
+- the manufacturer's recommendations
+- the intensity of use
+- operating environment (eg the effect of temperature, corrosion, weathering)
+- user knowledge and experience
+- the risk to health and safety from any foreseeable failure or malfunction 
+
+Safety-critical parts of work equipment may need a higher and more frequent level of attention than other aspects, which can be reflected within any maintenance programme. Breakdown maintenance, undertaken only after faults or failures have occurred, will not be suitable where significant risk will arise from the continued use of the work equipment.
+
 9.2b The responsibility of manufacturers to appropriately label products and offer guarentees to their consumers to deliver the correct levels of product assurance related to safety.
 
 Product labeling is covered under the Trade Description Act. Labels must include accurate information to ensure that products can be used safely and correctly.
