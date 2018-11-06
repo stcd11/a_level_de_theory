@@ -247,7 +247,7 @@ e* Introduction
 - [[https://simple.wikipedia.org/wiki/Malleability][*Malleability*]] is substance's ability to deform under pressure (compressive stress). If malleable, a material may be flattened into thin sheets by hammering or rolling (e.g. gold, iron, aluminium).  
 - [[https://simple.wikipedia.org/wiki/Ductility][*Ductility*]] is a material's ability to be drawn into a wire by being stretched. 
 - [[https://en.wikipedia.org/wiki/Machinability][*Machinability*]] the ease with which a metal can be cut (machined) permitting the removal of the material with a satisfactory finish at low cost. Materials with good machinability require little power to cut, can be cut quickly, easily obtain a good finish, and do not wear the tooling much; such materials are said to be free machining. 
-** 5.3a Costs and properties of materials 
+** 5.3b Costs and properties of materials 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
