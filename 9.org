@@ -240,13 +240,93 @@ Model-based testing is an application of model-based design for designing and op
 #+BEGIN_VERSE
 8.3a Assess design solutions viability.
 
-- The design solutions impact on user lifestyles.
-- How well the product performs.
-- Technical difficulty of manufacture.
-- Stock availability of materials and components.
-- Costs and profit.
-- Timescales involved.
-- Promotion, brand awareness and advertising potential.
-- Balancing supply and demand.
-- Market analysis of similar products. 
+*- The design solutions impact on user lifestyles.*
+
+Designers aim to prove the viability of new products and show that they will have a positive impact on user lifestyles.
+
+For example, mobile phones have had a large impact on user lifestyles as they have become lighter and able to complete more computational tasks.
+
+These solutions could also have negative impacts on user lifestyles, using the mobile phone example again, fewer people are communicating face-to-face and getting out.
+
+*- How well the product performs.*
+
+Feasibility studies confirming that a product will meet performance standards are vital if the product is to be viable.
+
+Companies want the user to percieve the need for a product and will spend a lot of time and money trying to research user needs and wants through many different forms, such as questionnaires.
+
+*- Technical difficulty of manufacture.*
+
+A major deciding factorin the production of a product is the costs associated with the difficulty of its manufacture.
+
+Designers and manufacturers aim to reduce the costs of manufacturing by adapting and simplifying products to make them easier to produce.
+
+*- Stock availability of materials and components.*
+
+The availability of stock or ease of obtaining materials can have a large impact on the viability of some products.
+
+Studies will need to take place to ensure materials and componets are easily available prior to manufacture. the following problems can occur if this is not done.
+
+1. a material is not available in sufficient quantities or availability is unreliable.
+2. it will cost a significant sum to buy in
+3. there is a long lead time
+4. there is strong competition for the materials or parts.
+5. the materials have an impact on sustainability.
+
+*- Costs and profit.*
+
+The need for companies to generate profitmeans that feasability studies to carefully plan cost implications and the ability for a product to make a profit.
+
+Types of costs to consider are:
+
+1. Factory rent/mortgage (fixed)
+2. Power (mixed cost)
+3. Insurance (Fixed)
+4. Wages (Variable costs)
+5. Miscellaneous expenses (variable costs)
+6. Machinery (fixed)
+7. Materials (variable cost)
+8. Tooling (variable cost)
+
+*- Timescales involved.*
+
+The timescales involved in bringing a product to market are vitally important. 
+
+A product brought too late to the market where a competitorhas a large market share can mean real problems in gaining sales and could mean a product and all its related investments will not longer be commercially viable. 
+
+Another timescale must be factored into a feasability study is obtaining protection of design ideas through intellectual property rights to ensure ideas can not be stolen.
+
+*- Promotion, brand awareness and advertising potential.*
+
+Marketing often dictates the success of a product and its associated comercial viability.
+
+If consumers are unaware that a product exists, they are unlikely to buy it.
+
+Companies often use brand awareness and brand identity to cross sell products. As a consumer, you are more likely to buy another product from the same company if you have had a positive experience.
+
+[[./img/marketing_mix.jpg]]
+
+*- Balancing supply and demand.*
+
+Keeping demand and supply in balance is a constant struggle. The consequences of poor customer service, high inventories, cash flow difficulties, and failure to meet planned business goals lead companies in search of a process to better manage the delicate balance of demand and supply.
+
+[[./img/supply_demand.jpg]]
+
+*- Market analysis of similar products.* 
+
+During the product development and after its launch, companies often perform a range of feasibility studies looking at other competitor products, sales trends, marketing promotions and opportunities in new markets.
+
+During development stages, market analysis is primarily focused on similar products already available to consumers.
+
+Analysis simply looks at sales trends to show the popularity of a certain product range within a market to determine demand.
+
+
+*Key terms:*
+
+1. Brand awareness
+2. Brand identity
+3. Electronic point of sale (EPOS)
+4. Feasibility study.
+5. Fixed costs.
+6. Variable costs.
+
 #+END_VERSE
