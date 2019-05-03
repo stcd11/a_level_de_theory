@@ -113,12 +113,13 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 *i*  the ability to add electronic control as an input to mechanical or pneumatic 
 output
 
-Whatch the video below, it will show you the basics of electro-pneumatics.
+Watch the video below, it will show you the basics of electro-pneumatics.
 #+END_VERSE
 #+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GhS1qpHoSX0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 #+END_HTML
 #+BEGIN_VERSE
+[[./img/52_DCV_valve.GIF]]
 *ii* the use of flow restrictors to control cylinder speed
 
 To read more about flow restrictors and the many different types and how they work, click on [[http://www.hydraulicspneumatics.com/200/TechZone/HydraulicValves/Article/False/6409/TechZone-HydraulicValves][this]] link.
