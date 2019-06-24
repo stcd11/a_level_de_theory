@@ -89,11 +89,11 @@
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
 
-* [[http://www.ocr.org.uk/qualifications/as-a-level-gce-design-and-technology-h004-h006-h404-h406-from-2017/assessment/#as-level][OCR Past Exam papers]]
+* [[https://www.ocr.org.uk/qualifications/as-and-a-level/design-and-technology-h004-h006-h404-h406-from-2017/specification-at-a-glance/][OCR A-Level Specification]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[https://www.ocr.org.uk/qualifications/as-and-a-level/design-and-technology-h004-h006-h404-h406-from-2017/specification-at-a-glance/][OCR A-Level Specification]]
+* [[http://www.ocr.org.uk/qualifications/as-a-level-gce-design-and-technology-h004-h006-h404-h406-from-2017/assessment/#as-level][OCR Past Exam papers]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
