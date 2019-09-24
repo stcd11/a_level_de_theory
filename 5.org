@@ -225,7 +225,7 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** 5.3a Suitability of materials based on the folowing properties 
+** 5.3a Suitability of materials based on the following properties 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
